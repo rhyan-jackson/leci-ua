@@ -1,0 +1,69 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetosquartus/proj2/simulation/qsim
+T_opt
+Z2 !s110 1698327044
+VSRN5mWT;0b]45EmH6?a^?2
+04 18 4 work EqCmp4_vlg_vec_tst fast 0
+=1-000ae431a4f1-653a6a04-cd8f5-c018
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vEqCmp4
+R2
+!i10b 1
+!s100 Gk4PYeN34Hn?HXMKM1_X61
+I>dg;9nYgHMGSFN9f==l0A0
+R1
+w1698327043
+8EqCmpDemo.vo
+FEqCmpDemo.vo
+!i122 2
+L0 32 168
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1698327044.000000
+!s107 EqCmpDemo.vo|
+!s90 -work|work|EqCmpDemo.vo|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@eq@cmp4
+vEqCmp4_vlg_vec_tst
+R2
+!i10b 1
+!s100 ;NFmRiZLURdEhFD7]=46F2
+IUR9KC<:dVc4n?J3h4mhda0
+R1
+w1698327042
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 98
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R7
+R3
+n@eq@cmp4_vlg_vec_tst

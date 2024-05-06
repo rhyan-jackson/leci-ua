@@ -1,0 +1,44 @@
+﻿# Intel Corporation Software and/or Intellectual Property License File
+# Issued 25 October 2023
+# Upgrade to these products will no longer be available after the Maintenance Expiration  
+# date unless licenses are renewed.  
+# Fixed Node License
+# Primary Machine Name-rhyan-inspiron
+# Primary Machine ID-NIC ID 2C6FC9661CC3
+# Companion ID-N/A
+# Companion ID 2-N/A
+# Product License Summary:
+# 2 Questa*-Intel® FPGA Starter Edition (License: SW-QUESTA), 1 Seat(s)
+# - Maintenance Expiration of 2024.10
+# - License Expires 24-Oct-2024
+# 2 Questa*-Intel® FPGA Starter Edition (License: SW-QUESTA), 1 Seat(s)
+# - Maintenance Expiration of 2024.10
+# - License Expires 24-Oct-2024
+################################################################################ 
+# FEATURE START 
+# This is license file for Questasim*-Intel FPGA Starter Edition 
+# Number of seat licenses is 1 
+# License Expires 24-Oct-2024 
+DAEMON mgcld path_to_mgcld
+INCREMENT intelqsimstarter mgcld 2024.01 24-oct-2024 uncounted \
+  \
+    DF37F379CB060F9410BE VENDOR_STRING=568CD2B4 HOSTID=2c6fc9661cc3 \
+    ISSUER=Intel SN=287996227 SIGN2="069F B7A2 9918 1CA6 CE10 C027 E056 \
+    D257 371A FE41 C277 8F0A 9BC6 629C 5712 037E C166 1D28 8C9F C35A 05FC \
+    3F00 5406 D211 76AB 183E C66F 4FD4 58B7 81B3"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# This is license file for Questasim*-Intel FPGA Starter Edition 
+# Number of seat licenses is 1 
+# License Expires 24-Oct-2024 
+DAEMON mgcld path_to_mgcld
+INCREMENT intelqsimstarter mgcld 2024.01 24-oct-2024 uncounted \
+  \
+    DF37F379CB06049F10BE VENDOR_STRING=568CD2B4 HOSTID=2c6fc9661cc3 \
+    ISSUER=Intel SN=287996228 SIGN2="1623 E56C 6F79 DE57 30F7 D2C2 D539 \
+    26E6 81C9 E60C 7241 69E0 9522 B218 4779 13F1 AB78 2690 BEAB 0C09 E00B \
+    2132 4650 78FA 48CF AD32 D0E4 717F EE56 1E75"
+# FEATURE END 
+################################################################################
+# End of Intel Corporation Software and/or Intellectual Property License File. Issued 10/25/2023

@@ -1,0 +1,242 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim
+T_opt
+!s110 1700649022
+V>Dz<hT[<LVaZ3DzcY8djf2
+04 19 4 work Desafio_vlg_vec_tst fast 0
+=1-000ae431a4f1-655dd83d-d5ac1-48ba7
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+T_opt1
+Z6 !s110 1700515763
+VVYNP5[a=5zWcB=83IQf2L3
+04 19 4 work MuxDemo_vlg_vec_tst fast 0
+=1-000ae431a4f1-655bcfb3-3583e-1015cc
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1700602968
+VQNk5FGb`;f_Nod7XZ1WC>2
+04 19 4 work Mux16_1_vlg_vec_tst fast 0
+=1-000ae431a4f1-655d2457-e0afe-72863
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+vDesafio
+Z7 !s110 1700649021
+!i10b 1
+!s100 `XY2FioOC=:6CE^ZB`8O92
+IPh5KEUz3oTVED]1OB=@VV0
+R1
+w1700649020
+Z8 8MuxDemo.vo
+Z9 FMuxDemo.vo
+!i122 50
+L0 32 537
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z12 !s108 1700649021.000000
+Z13 !s107 MuxDemo.vo|
+Z14 !s90 -work|work|MuxDemo.vo|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@desafio
+vDesafio_vlg_vec_tst
+R7
+!i10b 1
+!s100 MWflJSQ?9eW6LTQKJ^OgW2
+IjZG@>QBfSaif=_R1eJeC<3
+R1
+w1700649019
+8Desafio.vwf.vt
+FDesafio.vwf.vt
+!i122 51
+L0 30 310
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 Desafio.vwf.vt|
+!s90 -work|work|Desafio.vwf.vt|
+!i113 0
+R15
+R4
+n@desafio_vlg_vec_tst
+vMux16_1
+Z16 !s110 1700644630
+!i10b 1
+!s100 TF`Kf4a3M79BEezDdl4h50
+IV9QXdl_XI7];:Af80JCc[0
+R1
+w1700644629
+R8
+R9
+!i122 48
+L0 32 489
+R10
+R11
+r1
+!s85 0
+31
+Z17 !s108 1700644630.000000
+R13
+R14
+!i113 0
+R15
+R4
+n@mux16_1
+vMux16_1_vlg_vec_tst
+R16
+!i10b 1
+!s100 ]VP^[XWmhkN6mHfbTF_PX0
+I[<P]OoLm3fY3VR;8RYh4^1
+R1
+w1700644628
+8Mux16_1.vwf.vt
+FMux16_1.vwf.vt
+!i122 49
+L0 30 477
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 Mux16_1.vwf.vt|
+!s90 -work|work|Mux16_1.vwf.vt|
+!i113 0
+R15
+R4
+n@mux16_1_vlg_vec_tst
+vMux2_1
+Z18 !s110 1700515602
+!i10b 1
+!s100 CPP08_eVYe<bNoLS__APh0
+I9VR>fz@[2GHQ^<aBWk[9P3
+R1
+w1700515601
+R8
+R9
+!i122 32
+L0 32 98
+R10
+R11
+r1
+!s85 0
+31
+Z19 !s108 1700515602.000000
+R13
+R14
+!i113 0
+R15
+R4
+n@mux2_1
+vMux2_1_vlg_vec_tst
+R18
+!i10b 1
+!s100 C[DNN7jjS7aVZV<c^GFCW0
+IEVK68Io`TeC0OnC4M=>C]3
+R1
+w1700515600
+8Mux2_1.vwf.vt
+FMux2_1.vwf.vt
+!i122 33
+L0 30 71
+R10
+R11
+r1
+!s85 0
+31
+R19
+!s107 Mux2_1.vwf.vt|
+!s90 -work|work|Mux2_1.vwf.vt|
+!i113 0
+R15
+R4
+n@mux2_1_vlg_vec_tst
+vMuxDemo
+!s110 1700515762
+!i10b 1
+!s100 LW2k@Gi9BQAl_K5SH>liD1
+IJFLYCgdG?c<dNl^2QmI;H0
+R1
+w1700515762
+R8
+R9
+!i122 34
+L0 32 96
+R10
+R11
+r1
+!s85 0
+31
+!s108 1700515762.000000
+R13
+R14
+!i113 0
+R15
+R4
+n@mux@demo
+vMuxDemo_vlg_vec_tst
+R6
+!i10b 1
+!s100 >f_TQH6n^V?FUYMclkFIn1
+I;mab;RCIlF@8SDZo<^]WC2
+R1
+w1700515761
+8MuxDemo.vwf.vt
+FMuxDemo.vwf.vt
+!i122 35
+L0 30 83
+R10
+R11
+r1
+!s85 0
+31
+!s108 1700515763.000000
+!s107 MuxDemo.vwf.vt|
+!s90 -work|work|MuxDemo.vwf.vt|
+!i113 0
+R15
+R4
+n@mux@demo_vlg_vec_tst

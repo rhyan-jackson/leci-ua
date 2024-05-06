@@ -1,0 +1,214 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat03/part21/simulation/qsim
+T_opt
+!s110 1710237624
+Vl>F5o37Nm@4oR^2PUPF_n3
+04 21 14 work bin4tobcd_vhd_vec_tst bin4tobcd_arch 1
+=1-000ae431a4f1-65f027b7-d3299-2d7f7
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+Z6 !s110 1712353951
+Vnh_l4WF>^D^g6fBNAJ]Zd0
+04 16 9 work alun_vhd_vec_tst alun_arch 1
+=1-000ae431a4f1-6610729f-5db65-46fe1
+R2
+R3
+R4
+n@_opt1
+R5
+Ealun
+Z7 w1712353950
+Z8 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z9 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z10 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z13 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 4
+Z14 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat03/part2/simulation/qsim
+Z15 8ALUDemo.vho
+Z16 FALUDemo.vho
+l0
+Z17 L35 1
+VSzm?N:bJCQ1X:a0fBh=g]1
+!s100 om8dA;;@^jCgB4=;VY4QE3
+Z18 OL;C;2021.2;73
+32
+R6
+!i10b 1
+Z19 !s108 1712353951.000000
+Z20 !s90 -work|work|ALUDemo.vho|
+Z21 !s107 ALUDemo.vho|
+!i113 0
+Z22 o-work work
+Z23 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 4 alun 0 22 Szm?N:bJCQ1X:a0fBh=g]1
+!i122 4
+l407
+L45 4485
+V9L22`gUS[HJ`UmRHHk]F=3
+!s100 IlRjRPR[9N1g^EB?B=N812
+R18
+32
+R6
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Ealun_vhd_vec_tst
+Z24 w1712353949
+R11
+R12
+!i122 5
+R14
+Z25 8ALUN.vwf.vht
+Z26 FALUN.vwf.vht
+l0
+Z27 L32 1
+VX8XUd4BR8R<9NI9NAS2LE1
+!s100 X4n8GgI;YVS<RU=UmSLa00
+R18
+32
+R6
+!i10b 1
+R19
+Z28 !s90 -work|work|ALUN.vwf.vht|
+Z29 !s107 ALUN.vwf.vht|
+!i113 0
+R22
+R23
+Aalun_arch
+R11
+R12
+DEx4 work 16 alun_vhd_vec_tst 0 22 X8XUd4BR8R<9NI9NAS2LE1
+!i122 5
+l51
+L34 679
+VPBBbKk_TU:2Jb;]43nOdf0
+!s100 LIjnTi6cWaUfOkRJ=WZd92
+R18
+32
+R6
+!i10b 1
+R19
+R28
+R29
+!i113 0
+R22
+R23
+Ebin4tobcd
+Z30 w1710237622
+R8
+R9
+R10
+R11
+R12
+R13
+!i122 2
+R1
+R15
+R16
+l0
+R17
+Vzj_]]eBP<dGaVeM1olR^>2
+!s100 l3K_zjX_amRIXJFcYRY7_3
+R18
+32
+Z31 !s110 1710237623
+!i10b 1
+Z32 !s108 1710237623.000000
+R20
+R21
+!i113 0
+R22
+R23
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 9 bin4tobcd 0 22 zj_]]eBP<dGaVeM1olR^>2
+!i122 2
+l84
+L43 365
+VQISeS3[kVP?VWS<Ibnoch0
+!s100 glNB=cj3^PDPIjfDBYOac3
+R18
+32
+R31
+!i10b 1
+R32
+R20
+R21
+!i113 0
+R22
+R23
+Ebin4tobcd_vhd_vec_tst
+Z33 w1710237621
+R11
+R12
+!i122 3
+R1
+Z34 8BIN2BCD.vwf.vht
+Z35 FBIN2BCD.vwf.vht
+l0
+R27
+V]c`m7hG;h?15GDk@7Pf?Z1
+!s100 >5=TlLP`41DPG]RlkZ9Wd0
+R18
+32
+R31
+!i10b 1
+R32
+Z36 !s90 -work|work|BIN2BCD.vwf.vht|
+Z37 !s107 BIN2BCD.vwf.vht|
+!i113 0
+R22
+R23
+Abin4tobcd_arch
+R11
+R12
+DEx4 work 21 bin4tobcd_vhd_vec_tst 0 22 ]c`m7hG;h?15GDk@7Pf?Z1
+!i122 3
+l47
+L34 73
+VJVe<>APV1E6`ADe6Jba1]3
+!s100 74kL2eCggo>jlBcOW2SWo1
+R18
+32
+R31
+!i10b 1
+R32
+R36
+R37
+!i113 0
+R22
+R23

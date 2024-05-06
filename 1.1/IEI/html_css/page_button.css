@@ -1,0 +1,54 @@
+body {
+    font-family: 'Ubuntu Mono';
+}
+/* 
+input {
+    font-family: 'Ubuntu Mono';
+} */
+
+.div-centralizada {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border:1px solid black;
+}
+
+.obj-interno {
+    margin: 0px;
+}
+
+.button-ok {
+    color: black;
+    background-color: rgb(8, 230, 41);
+}
+
+.button-cancel {
+    color: white;
+    background-color: rgb(70%, 0%, 10%);
+}
+
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px auto 10px;
+    width: 60%;
+}
+
+tr {
+    border: 1.6px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th, td {
+    border: 2px solid #000000;
+    text-align: center;
+    min-width: 90px;
+}
+
+th {
+    background-color: antiquewhite;
+}

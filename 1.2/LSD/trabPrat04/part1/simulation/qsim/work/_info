@@ -1,0 +1,129 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat04/part1/simulation/qsim
+T_opt
+!s110 1710244709
+VfeI@AdNU=UVmIXR6oAfW:3
+Z2 04 21 14 work flipflopd_vhd_vec_tst flipflopd_arch 1
+=1-000ae431a4f1-65f04365-4c29d-87853
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1710767699
+V3ON7ja=cgF6QoG>59jDVg1
+R2
+=1-000ae431a4f1-65f83e52-968b6-280c4
+R3
+R4
+R5
+n@_opt1
+R6
+Eflipflopd
+Z7 w1710767697
+Z8 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z9 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z10 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z11 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z12 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z15 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 4
+R1
+Z16 8FlipFlopD_Demo.vho
+Z17 FFlipFlopD_Demo.vho
+l0
+L37 1
+V2HE9mdoHkMWX=dcYA<W290
+!s100 1G@WnU@99f<BH`HNFZmWW0
+Z18 OL;C;2021.2;73
+32
+Z19 !s110 1710767698
+!i10b 1
+Z20 !s108 1710767698.000000
+Z21 !s90 -work|work|FlipFlopD_Demo.vho|
+Z22 !s107 FlipFlopD_Demo.vho|
+!i113 0
+Z23 o-work work
+Z24 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+DEx4 work 9 flipflopd 0 22 2HE9mdoHkMWX=dcYA<W290
+!i122 4
+l70
+L47 115
+VXi7M`_E>jUC6LA[0BA@Pi0
+!s100 6de86ACbN^;aW;Wmd]Qo;2
+R18
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R23
+R24
+Eflipflopd_vhd_vec_tst
+Z25 w1710767696
+R13
+R14
+!i122 5
+R1
+Z26 8FFD.vwf.vht
+Z27 FFFD.vwf.vht
+l0
+L32 1
+V_hf]K[JUEnmKOT8_MlE`31
+!s100 B0D]Y`jPC@nc2_<D:OGZM1
+R18
+32
+R19
+!i10b 1
+R20
+Z28 !s90 -work|work|FFD.vwf.vht|
+Z29 !s107 FFD.vwf.vht|
+!i113 0
+R23
+R24
+Aflipflopd_arch
+R13
+R14
+DEx4 work 21 flipflopd_vhd_vec_tst 0 22 _hf]K[JUEnmKOT8_MlE`31
+!i122 5
+l51
+L34 83
+V8dj?YfjkcE3?hmIRenajh0
+!s100 [VTUTHDiEaXN2i<inSeJ90
+R18
+32
+R19
+!i10b 1
+R20
+R28
+R29
+!i113 0
+R23
+R24

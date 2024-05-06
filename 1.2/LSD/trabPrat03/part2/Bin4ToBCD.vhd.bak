@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Bin4ToBCD is
+	port(
+	bIn 		:	in  std_logic_vector(3 downto 0);
+	bcdOut	:	out std_logic_vector(4 downto 0));
+end Bin4ToBCD;
+
+architecture Behavioral of Bin4ToBCD is
+begin
+	bcdOut(4) 	<= (bIn(3) and bIn(2)) or (bIn(3) and bIn(1));
+	bcdOut(3) <= (bIn(3) and not bIn(2) and not bIn(1));
+	bcdOut(2) 	<= (not bIn(3) and bIn (2)) or (bIn(2) and bIn(1));
+	bcdOut(1) <= (bIn(3) and bIn (2) and not bIn(1)) or (not bIn(3) and bIn(1));
+	bcdOut(0)	<= bIn(0);
+end Behavioral;

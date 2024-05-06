@@ -1,0 +1,188 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetosquartus/testeisd2/simulation/qsim
+T_opt
+Z2 !s110 1703065198
+V]AK00TW@@n9W1GMhYM`Rf1
+04 15 4 work MEF_vlg_vec_tst fast 0
+=1-000ae431a4f1-6582b66e-3cf00-1cb9e
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+Z7 !s110 1703066343
+V_7];i`5<k[Zg=]Iek726e2
+04 24 4 work SpecialCount_vlg_vec_tst fast 0
+=1-000ae431a4f1-6582bae7-30343-2d6a7
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+Z8 !s110 1703067270
+V<XcBWc_7==5>_07GB2EUY3
+04 25 4 work MSpecialCount_vlg_vec_tst fast 0
+=1-000ae431a4f1-6582be86-8f583-3b59f
+R3
+R4
+R5
+n@_opt2
+R6
+vMEF
+R2
+!i10b 1
+!s100 nTTQ>QW@B:cHkM3dA8P;U3
+Ibh7bBjMl5USP<_BHzDQcO0
+R1
+w1703065197
+Z9 8testeisd2.vo
+Z10 Ftesteisd2.vo
+!i122 2
+L0 32 156
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1703065197.000000
+Z13 !s107 testeisd2.vo|
+Z14 !s90 -work|work|testeisd2.vo|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@m@e@f
+vMEF_vlg_vec_tst
+R2
+!i10b 1
+!s100 _Rh^dUITP5OZHATgG:zBn3
+ITVzD]M_A]D_SYSFJDHU;Q1
+R1
+w1703065196
+8MEF.vwf.vt
+FMEF.vwf.vt
+!i122 3
+L0 30 65
+R11
+R12
+r1
+!s85 0
+31
+!s108 1703065198.000000
+!s107 MEF.vwf.vt|
+!s90 -work|work|MEF.vwf.vt|
+!i113 0
+R15
+R5
+n@m@e@f_vlg_vec_tst
+vMSpecialCount
+R8
+!i10b 1
+!s100 3faO>fPje=A:YG8X>6W=L3
+InIJHFz8o3U_G9jLP8BAC=0
+R1
+w1703067269
+R9
+R10
+!i122 14
+L0 32 314
+R11
+R12
+r1
+!s85 0
+31
+Z16 !s108 1703067270.000000
+R13
+R14
+!i113 0
+R15
+R5
+n@m@special@count
+vMSpecialCount_vlg_vec_tst
+R8
+!i10b 1
+!s100 W[QYBUP37[P[?@Q]36[Zi0
+ITI@@JA5FNLBdfFz^:5RV?2
+R1
+w1703067268
+8MSpecialCount.vwf.vt
+FMSpecialCount.vwf.vt
+!i122 15
+L0 30 39
+R11
+R12
+r1
+!s85 0
+31
+R16
+!s107 MSpecialCount.vwf.vt|
+!s90 -work|work|MSpecialCount.vwf.vt|
+!i113 0
+R15
+R5
+n@m@special@count_vlg_vec_tst
+vSpecialCount
+!s110 1703066342
+!i10b 1
+!s100 7gG2BnJY<`ZlXJYYOOCf@3
+I^K0caTzHa<WKS]nKRY58;2
+R1
+w1703066342
+R9
+R10
+!i122 6
+L0 32 198
+R11
+R12
+r1
+!s85 0
+31
+Z17 !s108 1703066342.000000
+R13
+R14
+!i113 0
+R15
+R5
+n@special@count
+vSpecialCount_vlg_vec_tst
+R7
+!i10b 1
+!s100 W0;B1T=CCP@jYl>=dVjQE2
+IVT2U3>CFZB1d9BQMI:`JK3
+R1
+w1703066341
+8SpecialCount.vwf.vt
+FSpecialCount.vwf.vt
+!i122 7
+L0 30 30
+R11
+R12
+r1
+!s85 0
+31
+R17
+!s107 SpecialCount.vwf.vt|
+!s90 -work|work|SpecialCount.vwf.vt|
+!i113 0
+R15
+R5
+n@special@count_vlg_vec_tst

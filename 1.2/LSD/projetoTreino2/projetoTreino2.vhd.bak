@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity projetoTreino2 is
+	port(
+    CLOCK_50 : in  std_logic;
+	SW 		 : in  std_logic_vector(1 downto 0);
+    HEX0     : out std_logic_vector(6 downto 0));
+end projetoTreino2;
+
+architecture Behavioral of projetoTreino2 is
+	signal sw_sync unsigned(1 downto 0);
+begin
+    process(CLOCK_50) -- synchronizing sw input with general clock
+    begin
+         if (rising_edge(CLOCK_50)) then
+               sync_sw <= SW;
+         end if;
+    end process;
+
+    options_decoder : work.Dec2_4En(BehavProc)
+		  port map(inputs  => SW(1 downto 0),
+				   outputs  => HEX0(6 downto 0)
+	 );
+	
+end Behavioral;

@@ -1,0 +1,16 @@
+|Mux4_1
+dataIn0 => dataOut.IN1
+dataIn1 => dataOut.IN1
+dataIn2 => dataOut.IN1
+dataIn3 => dataOut.IN1
+sel[0] => dataOut.IN0
+sel[0] => dataOut.IN0
+sel[0] => dataOut.IN0
+sel[0] => dataOut.IN0
+sel[1] => dataOut.IN1
+sel[1] => dataOut.IN1
+sel[1] => dataOut.IN1
+sel[1] => dataOut.IN1
+dataOut <= dataOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

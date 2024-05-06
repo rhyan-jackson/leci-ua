@@ -1,0 +1,128 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetosquartus/exercicio-teste/simulation/qsim
+T_opt
+!s110 1701122364
+V5SLWSl:zQSMk[@hN?Qb3a0
+04 21 4 work exercicio_vlg_vec_tst fast 0
+=1-000ae431a4f1-6565113c-b2140-9d5da
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+Z6 !s110 1701184390
+VhSDXBGa[Wl@Z08`R<]IQf3
+04 21 4 work block_use_vlg_vec_tst fast 0
+=1-000ae431a4f1-65660386-4a177-4f225
+R2
+R3
+R4
+n@_opt1
+R5
+vblock_use
+R6
+!i10b 1
+!s100 kW_c<hEzOP?1P4FdJQ6=]3
+Ia^jo:W3O>IHPB_V?5LTfa0
+R1
+w1701184389
+Z7 8exercicio.vo
+Z8 Fexercicio.vo
+!i122 16
+L0 32 98
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z11 !s108 1701184390.000000
+Z12 !s107 exercicio.vo|
+Z13 !s90 -work|work|exercicio.vo|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vblock_use_vlg_vec_tst
+R6
+!i10b 1
+!s100 d44YOfk0]oBQ6EJYHbVc03
+ITj@f[ZYCTbPh4lGfaLZTk0
+R1
+w1701184388
+8function_test.vwf.vt
+Ffunction_test.vwf.vt
+!i122 17
+L0 30 69
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 function_test.vwf.vt|
+!s90 -work|work|function_test.vwf.vt|
+!i113 0
+R14
+R4
+vexercicio
+Z15 !s110 1701122650
+!i10b 1
+!s100 X>VLJM6UDlDRj@Th6hV_:0
+II1SmEi:533nPeO9C`?Fe42
+R1
+w1701122650
+R7
+R8
+!i122 12
+L0 32 263
+R9
+R10
+r1
+!s85 0
+31
+Z16 !s108 1701122650.000000
+R12
+R13
+!i113 0
+R14
+R4
+vexercicio_vlg_vec_tst
+R15
+!i10b 1
+!s100 Z?he>4VO5mWC[`:WEFLki3
+IeY:<Z];BZ4K]o;89KNSkd3
+R1
+w1701122649
+8teste_ex.vwf.vt
+Fteste_ex.vwf.vt
+!i122 13
+L0 30 201
+R9
+R10
+r1
+!s85 0
+31
+R16
+!s107 teste_ex.vwf.vt|
+!s90 -work|work|teste_ex.vwf.vt|
+!i113 0
+R14
+R4

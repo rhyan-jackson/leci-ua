@@ -1,0 +1,121 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat04/part4/simulation/qsim
+T_opt
+Z2 !s110 1710849455
+Vb2>HX:O2A98i5>2?FN9]b1
+04 23 16 work freqdivider_vhd_vec_tst freqdivider_arch 1
+=1-000ae431a4f1-65f97daf-3d214-41341
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Efreqdivider
+Z3 w1710849454
+Z4 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z5 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 10
+R1
+Z12 8FreqDivider_Demo.vho
+Z13 FFreqDivider_Demo.vho
+l0
+L37 1
+V?8k`9oc0QM<?f^_>K7i8g3
+!s100 FB[zh?Y:>NiG5PCg?mnbj0
+Z14 OL;C;2021.2;73
+32
+R2
+!i10b 1
+Z15 !s108 1710849454.000000
+Z16 !s90 -work|work|FreqDivider_Demo.vho|
+Z17 !s107 FreqDivider_Demo.vho|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 11 freqdivider 0 22 ?8k`9oc0QM<?f^_>K7i8g3
+!i122 10
+l328
+L46 3380
+VJmA3;L;GWE_=lmRcC=i7D0
+!s100 ch]R]FjdgmbIUinfEN5OH0
+R14
+32
+R2
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Efreqdivider_vhd_vec_tst
+Z20 w1710849453
+R9
+R10
+!i122 11
+R1
+Z21 8FreqDivider.vwf.vht
+Z22 FFreqDivider.vwf.vht
+l0
+L32 1
+VVNPfd_1c]`<Em_c@h6m262
+!s100 Mek64N2zLXU9Q_4O[=B483
+R14
+32
+R2
+!i10b 1
+Z23 !s108 1710849455.000000
+Z24 !s90 -work|work|FreqDivider.vwf.vht|
+Z25 !s107 FreqDivider.vwf.vht|
+!i113 0
+R18
+R19
+Afreqdivider_arch
+R9
+R10
+DEx4 work 23 freqdivider_vhd_vec_tst 0 22 VNPfd_1c]`<Em_c@h6m262
+!i122 11
+l49
+L34 236
+VUz4>>DgNAiA0J=6dFMI9Y1
+!s100 G_8dmR^]0F1ONOJSD?T[31
+R14
+32
+R2
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R18
+R19

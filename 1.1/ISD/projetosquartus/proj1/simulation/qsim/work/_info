@@ -1,0 +1,149 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f MIXED_VERSIONS
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetos-quartus/simulation/qsim
+T_opt
+!s110 1698266442
+VgK5M?M:b=Kj7MocY:2M=k1
+04 17 10 work out25_vhd_vec_tst out25_arch 1
+=1-000ae431a4f1-65397d49-e2d08-3cece
+Z2 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+T_opt1
+!s110 1698266146
+VVn@L6fC@@WGLWB3>JJzVe1
+04 17 4 work out25_vlg_vec_tst fast 0
+=1-000ae431a4f1-65397c21-ccd28-3cc80
+R2
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+R3
+n@_opt1
+R4
+R1
+Eout25
+Z5 w1698266440
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 16
+R1
+Z12 8out25.vho
+Z13 Fout25.vho
+l0
+L35 1
+VFQg@n?[<ZoZE2oP]Uj=f71
+!s100 I44<TjhCN22m[KT<W<m^Z1
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1698266441
+!i10b 1
+Z16 !s108 1698266441.000000
+Z17 !s90 -work|work|out25.vho|
+Z18 !s107 out25.vho|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 5 out25 0 22 FQg@n?[<ZoZE2oP]Uj=f71
+!i122 16
+l62
+L43 76
+VmgWMkPkm[IIf4XkQC5c1>1
+!s100 biA:Mb2RM:Ag_BiMEeK:T1
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Eout25_vhd_vec_tst
+Z21 w1698266439
+R9
+R10
+!i122 17
+R1
+Z22 8GateDemo.vwf.vht
+Z23 FGateDemo.vwf.vht
+l0
+L32 1
+V1XeJ7D6875U@I7O]ch2^Q3
+!s100 H^jAIj@k0WSTIlQ?[IHU_0
+R14
+32
+R15
+!i10b 1
+R16
+Z24 !s90 -work|work|GateDemo.vwf.vht|
+Z25 !s107 GateDemo.vwf.vht|
+!i113 0
+R19
+R20
+Aout25_arch
+R9
+R10
+DEx4 work 17 out25_vhd_vec_tst 0 22 1XeJ7D6875U@I7O]ch2^Q3
+!i122 17
+l47
+L34 44
+Vi>dAZ;aZ[GI4lFL`OUnTF2
+!s100 LY6o]c4_Cz2dlPKOH_b2K2
+R14
+32
+R15
+!i10b 1
+R16
+R24
+R25
+!i113 0
+R19
+R20
+vout25_vlg_vec_tst
+!s110 1698266145
+!i10b 1
+!s100 BCf[U:l75TNlOmi<_zlSm2
+ImfRkGAz3C0W4nH;<kQSVU0
+R1
+w1698266143
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 11
+L0 30 36
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1698266145.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

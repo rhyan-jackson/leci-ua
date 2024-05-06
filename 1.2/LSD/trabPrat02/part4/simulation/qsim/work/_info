@@ -1,0 +1,162 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat02/part4/simulation/qsim
+T_opt
+!s110 1709571162
+V4bL>z9a`SAYD89Sl>j6BN3
+04 19 12 work penc4_2_vhd_vec_tst penc4_2_arch 1
+=1-000ae431a4f1-65e5fc5a-41170-43350
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ehard_block
+Z2 w1709571160
+Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z4 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 2
+R1
+Z9 8PEnc4_2Demo.vho
+Z10 FPEnc4_2Demo.vho
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z11 OL;C;2021.2;73
+32
+Z12 !s110 1709571161
+!i10b 1
+Z13 !s108 1709571161.000000
+Z14 !s90 -work|work|PEnc4_2Demo.vho|
+Z15 !s107 PEnc4_2Demo.vho|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 2
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epenc4_2
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 2
+R1
+R9
+R10
+l0
+L78 1
+Vb@XKjak4XYB4NnRnI_na92
+!s100 Vz[l<TL`oII][b^7SX?zG3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 7 penc4_2 0 22 b@XKjak4XYB4NnRnI_na92
+!i122 2
+l131
+L96 249
+V;TNRZz]0<:n>HO0KFOIWB0
+!s100 g8TQJMj<6AM_Xf1Hfgfhk2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epenc4_2_vhd_vec_tst
+Z18 w1709571159
+R6
+R7
+!i122 3
+R1
+Z19 8PEnc4_2.vwf.vht
+Z20 FPEnc4_2.vwf.vht
+l0
+L32 1
+VF1B9aLh@XS]jNbCPXWDKC3
+!s100 T4L>mF222jV0k3SHnoKY`2
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|PEnc4_2.vwf.vht|
+Z22 !s107 PEnc4_2.vwf.vht|
+!i113 0
+R16
+R17
+Apenc4_2_arch
+R6
+R7
+DEx4 work 19 penc4_2_vhd_vec_tst 0 22 F1B9aLh@XS]jNbCPXWDKC3
+!i122 3
+l47
+L34 76
+VSa7a04N3dGbhKBj2JEe:F2
+!s100 >E]?3iYo]ch`BijBjUQ?S2
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17

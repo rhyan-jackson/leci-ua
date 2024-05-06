@@ -1,0 +1,73 @@
+Determining the location of the ModelSim executable...
+
+Using: /home/rhyan/.intel_fpga_lite/22.1.2/questa_fse/linux_x86_64/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both Questa Intel FPGA Edition and ModelSim executables are available, Questa Intel FPGA Edition will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MuxDemo -c MuxDemo --vector_source="/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/Desafio.vwf" --testbench_file="/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/Desafio.vwf.vt"
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition    Info: Copyright (C) 2023  Intel Corporation. All rights reserved.    Info: Your use of Intel Corporation's design tools, logic functions     Info: and other software and tools, and any partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Intel Program License     Info: Subscription Agreement, the Intel Quartus Prime License Agreement,    Info: the Intel FPGA IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Intel and sold by Intel or its authorized distributors.  Please    Info: refer to the applicable agreement for further details, at    Info: https://fpgasoftware.intel.com/eula.    Info: Processing started: Wed Nov 22 10:30:19 2023Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MuxDemo -c MuxDemo --vector_source=/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/Desafio.vwf --testbench_file=/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/Desafio.vwf.vtInfo (119004): Automatically selected device EP4CE6E22C6 for design MuxDemoWarning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/" MuxDemo -c MuxDemo
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition    Info: Copyright (C) 2023  Intel Corporation. All rights reserved.    Info: Your use of Intel Corporation's design tools, logic functions     Info: and other software and tools, and any partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Intel Program License     Info: Subscription Agreement, the Intel Quartus Prime License Agreement,    Info: the Intel FPGA IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Intel and sold by Intel or its authorized distributors.  Please    Info: refer to the applicable agreement for further details, at    Info: https://fpgasoftware.intel.com/eula.    Info: Processing started: Wed Nov 22 10:30:20 2023Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/ MuxDemo -c MuxDemoInfo (119004): Automatically selected device EP4CE6E22C6 for design MuxDemoWarning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.Info (204019): Generated file MuxDemo.vo in folder "/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim//" for EDA simulation toolInfo: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning    Info: Peak virtual memory: 607 megabytes    Info: Processing ended: Wed Nov 22 10:30:21 2023    Info: Elapsed time: 00:00:01    Info: Total CPU time (on all processors): 00:00:01
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+/home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/MuxDemo.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+/home/rhyan/.intel_fpga_lite/22.1.2/questa_fse/linux_x86_64//vsim -c -do MuxDemo.do
+
+Reading pref.tcl
+# 2021.2
+# do MuxDemo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:30:21 on Nov 22,2023
+# vlog -work work MuxDemo.vo 
+# -- Compiling module Desafio
+# 
+# Top level modules:# 	Desafio# End time: 10:30:21 on Nov 22,2023, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:30:21 on Nov 22,2023
+# vlog -work work Desafio.vwf.vt 
+# -- Compiling module Desafio_vlg_vec_tst
+# 
+# Top level modules:# 	Desafio_vlg_vec_tst# End time: 10:30:21 on Nov 22,2023, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Desafio_vlg_vec_tst # Start time: 10:30:21 on Nov 22,2023# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Intel Starter FPGA Edition-64# //  Version 2021.2 linux_x86_64 Apr 14 2021# //# //  Copyright 1991-2021 Mentor Graphics Corporation# //  All Rights Reserved.# //# //  QuestaSim and its associated documentation contain trade# //  secrets and commercial or financial information that are the property of# //  Mentor Graphics Corporation and are privileged, confidential,# //  and exempt from disclosure under the Freedom of Information Act,# //  5 U.S.C. Section 552. Furthermore, this information# //  is prohibited from disclosure under the Trade Secrets Act,# //  18 U.S.C. Section 1905.# //
+# Loading work.Desafio_vlg_vec_tst(fast)# Loading work.Desafio(fast)# Loading cycloneive_ver.cycloneive_io_obuf(fast)# Loading cycloneive_ver.cycloneive_io_ibuf(fast)# Loading cycloneive_ver.cycloneive_lcell_comb(fast)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__4)
+# after#26
+# ** Note: $finish    : Desafio.vwf.vt(57)#    Time: 1 us  Iteration: 0  Instance: /Desafio_vlg_vec_tst
+# End time: 10:30:22 on Nov 22,2023, Elapsed time: 0:00:01# Errors: 0, Warnings: 0
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading /home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/Desafio.vwf...
+
+Reading /home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/MuxDemo.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to /home/rhyan/Documents/ua/ISD/projetosquartus/guiao7/simulation/qsim/MuxDemo_20231122103022.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

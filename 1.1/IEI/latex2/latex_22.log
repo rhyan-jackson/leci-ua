@@ -1,0 +1,55 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdftex 2023.10.12)  17 OCT 2023 17:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**latex_22.tex
+(./latex_22.tex
+! Undefined control sequence.
+l.5 \documentclass
+                  [11pt]{article}
+? 
+! Undefined control sequence.
+l.6 \usepackage
+               [utf8]{inputenc}
+? 
+! Undefined control sequence.
+l.9 \title
+          {\textbf{Introdu√ß√£o √† Engenharia Inform√°tica}}
+? 
+! Undefined control sequence.
+l.9 \title{\textbf
+                  {Introdu√ß√£o √† Engenharia Inform√°tica}}
+? 
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+! Undefined control sequence.
+l.10 \author
+            {Turma 1 Grupo 1}
+? 
+! Undefined control sequence.
+l.11 \date
+          {\today}
+? 
+! Undefined control sequence.
+l.11 \date{\today
+                 }
+? 
+! Undefined control sequence.
+l.13 \begin
+           {document}
+? 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] )</usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on latex_22.pdf (1 page, 14858 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

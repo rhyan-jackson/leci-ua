@@ -1,0 +1,11 @@
+|enunciado1
+OUT <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK => ff1.CLK
+CLK => ff2.CLK
+CLK => ff0.CLK
+R_H => inst9.IN0
+
+

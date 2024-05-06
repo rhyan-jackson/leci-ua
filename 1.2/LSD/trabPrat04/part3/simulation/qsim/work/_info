@@ -1,0 +1,117 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat04/part3/simulation/qsim
+T_opt
+!s110 1710840789
+V@lS=j51b7n>nceTNNJ4]S0
+04 24 17 work counterdown4_vhd_vec_tst counterdown4_arch 1
+=1-000ae431a4f1-65f95bd5-f14b-16b1f
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ecounterdown4
+Z2 w1710840788
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z4 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 2
+R1
+Z11 8Counter_Demo.vho
+Z12 FCounter_Demo.vho
+l0
+L37 1
+VYV9D_iQL>Id?MAGOM>nQz3
+!s100 `9<ofX4c0]_3jChO19b860
+Z13 OL;C;2021.2;73
+32
+Z14 !s110 1710840788
+!i10b 1
+Z15 !s108 1710840788.000000
+Z16 !s90 -work|work|Counter_Demo.vho|
+Z17 !s107 Counter_Demo.vho|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 12 counterdown4 0 22 YV9D_iQL>Id?MAGOM>nQz3
+!i122 2
+l67
+L44 203
+Vo8^K[nf?BWm@:eBG_VlMo0
+!s100 KGAl0kLRZPCCj^hIC<]o<3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ecounterdown4_vhd_vec_tst
+Z20 w1710840787
+R8
+R9
+!i122 3
+R1
+Z21 8CounterDown4.vwf.vht
+Z22 FCounterDown4.vwf.vht
+l0
+L32 1
+V;GC?2a[jnG6V5?CzHakgY0
+!s100 B?OO]3^Fh9CRc4R4aHA6H0
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|CounterDown4.vwf.vht|
+Z24 !s107 CounterDown4.vwf.vht|
+!i113 0
+R18
+R19
+Acounterdown4_arch
+R8
+R9
+DEx4 work 24 counterdown4_vhd_vec_tst 0 22 ;GC?2a[jnG6V5?CzHakgY0
+!i122 3
+l45
+L34 31
+VB=DFa_>eZ[gl>lBfkKOc@1
+!s100 4AWhl[Ha2UT_Al=iT6`?k2
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 0
+R18
+R19

@@ -1,0 +1,181 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/ISD/projetosquartus/testeisd/simulation/qsim
+T_opt
+Z2 !s110 1701251047
+V`oHQL0geBafWRFE2`V<Sj2
+04 20 4 work questao1_vlg_vec_tst fast 0
+=1-000ae431a4f1-656707e7-8d423-24a61
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+Z7 !s110 1701251971
+VHn@[[JO8I4oQU9OUeYmlV1
+04 18 4 work quest3_vlg_vec_tst fast 0
+=1-000ae431a4f1-65670b83-8e131-3292d
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1701252448
+VAOPbNXP_6IYhPOfa@b7ZY0
+04 18 4 work quest2_vlg_vec_tst fast 0
+=1-000ae431a4f1-65670d60-e688-39647
+R3
+R4
+R5
+n@_opt2
+R6
+vquest2
+Z8 !s110 1701252447
+!i10b 1
+!s100 E8X:1U8a]9Zh`I9Wo=;>F3
+IUPzl_M[0V]X6]PGTN7XLP3
+R1
+w1701252447
+Z9 8teste.vo
+Z10 Fteste.vo
+!i122 10
+Z11 L0 32 246
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z14 !s108 1701252447.000000
+Z15 !s107 teste.vo|
+Z16 !s90 -work|work|teste.vo|
+!i113 0
+Z17 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vquest2_vlg_vec_tst
+R8
+!i10b 1
+!s100 _n21kOn`B8l2iFb`Gmc1n0
+IjBZ`0A2fOLSN^XoozdBb@3
+R1
+w1701252446
+8quest2BlockTest.vwf.vt
+Fquest2BlockTest.vwf.vt
+!i122 11
+L0 30 222
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 quest2BlockTest.vwf.vt|
+!s90 -work|work|quest2BlockTest.vwf.vt|
+!i113 0
+R17
+R5
+vquest3
+R7
+!i10b 1
+!s100 g^B4ZCCng@D4`f15gzFYL3
+Ib>D6cST<`YeO>hWmElIB60
+R1
+w1701251970
+R9
+R10
+!i122 8
+L0 32 98
+R12
+R13
+r1
+!s85 0
+31
+Z18 !s108 1701251971.000000
+R15
+R16
+!i113 0
+R17
+R5
+vquest3_vlg_vec_tst
+R7
+!i10b 1
+!s100 b;ZOU0kD4o4`4FOl_PBWE2
+Ib>gmYWX1TG8U8Umml<<lU0
+R1
+w1701251969
+8waveformQuest3.vwf.vt
+FwaveformQuest3.vwf.vt
+!i122 9
+L0 30 79
+R12
+R13
+r1
+!s85 0
+31
+R18
+!s107 waveformQuest3.vwf.vt|
+!s90 -work|work|waveformQuest3.vwf.vt|
+!i113 0
+R17
+R5
+vquestao1
+R2
+!i10b 1
+!s100 I?JQ=a6VaAUB9lD?nn=Hl3
+Im5TYcLO4bGlC9=]_?mUAl2
+R1
+w1701251046
+R9
+R10
+!i122 6
+R11
+R12
+R13
+r1
+!s85 0
+31
+Z19 !s108 1701251047.000000
+R15
+R16
+!i113 0
+R17
+R5
+vquestao1_vlg_vec_tst
+R2
+!i10b 1
+!s100 KzI3:@dcbHVRGL0Xj^FY?0
+ICcL2gbbLjE>]0CYPDjk;n0
+R1
+w1701251045
+8waveformTeste.vwf.vt
+FwaveformTeste.vwf.vt
+!i122 7
+L0 30 209
+R12
+R13
+r1
+!s85 0
+31
+R19
+!s107 waveformTeste.vwf.vt|
+!s90 -work|work|waveformTeste.vwf.vt|
+!i113 0
+R17
+R5

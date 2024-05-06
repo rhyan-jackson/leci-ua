@@ -1,0 +1,679 @@
+$comment
+	File created using the following command:
+		vcd file guiao8.msim.vcd -direction
+$end
+$date
+	Wed Dec  6 09:55:01 2023
+$end
+$version
+	Questa Intel Starter FPGA Edition Version 2021.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module ripple_adder_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 1 # Ci $end
+$var wire 1 $ Co $end
+$var wire 1 % S0 $end
+$var wire 1 & S1 $end
+$var wire 1 ' S2 $end
+$var wire 1 ( S3 $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / Co~output_o $end
+$var wire 1 0 S3~output_o $end
+$var wire 1 1 S2~output_o $end
+$var wire 1 2 S1~output_o $end
+$var wire 1 3 S0~output_o $end
+$var wire 1 4 A[2]~input_o $end
+$var wire 1 5 B[2]~input_o $end
+$var wire 1 6 inst|inst5~0_combout $end
+$var wire 1 7 A[0]~input_o $end
+$var wire 1 8 B[0]~input_o $end
+$var wire 1 9 inst3|inst5~0_combout $end
+$var wire 1 : Ci~input_o $end
+$var wire 1 ; inst3|inst5~1_combout $end
+$var wire 1 < A[1]~input_o $end
+$var wire 1 = B[1]~input_o $end
+$var wire 1 > inst2|inst5~0_combout $end
+$var wire 1 ? inst|inst5~1_combout $end
+$var wire 1 @ A[3]~input_o $end
+$var wire 1 A B[3]~input_o $end
+$var wire 1 B inst1|inst5~0_combout $end
+$var wire 1 C inst1|inst7~combout $end
+$var wire 1 D inst|inst7~0_combout $end
+$var wire 1 E inst2|inst7~combout $end
+$var wire 1 F inst3|inst7~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b1111 "
+0#
+0$
+1%
+1&
+1'
+1(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+10
+11
+12
+13
+04
+15
+06
+07
+18
+09
+0:
+0;
+0<
+1=
+0>
+0?
+0@
+1A
+0B
+1C
+1D
+1E
+1F
+$end
+#40000
+b1 !
+b111 "
+b11 "
+b10 "
+08
+05
+0A
+17
+0D
+0C
+00
+01
+0'
+0(
+#80000
+b11 !
+1#
+b10 !
+b1010 "
+b1110 "
+b1111 "
+1:
+18
+15
+1A
+07
+1<
+0F
+1;
+1D
+1C
+0E
+1>
+02
+10
+11
+03
+1E
+0D
+1?
+0%
+1'
+1(
+0&
+01
+12
+0C
+1B
+1&
+0'
+1/
+00
+0(
+1$
+#120000
+b1101 "
+b11 !
+b1001 "
+b1000 "
+17
+08
+0=
+05
+0E
+1D
+0?
+11
+02
+1C
+0B
+0&
+1'
+0/
+10
+1(
+0$
+#160000
+b111 !
+b101 !
+0#
+b100 !
+b1100 "
+0:
+15
+07
+0<
+14
+0;
+1?
+16
+1E
+0>
+12
+0E
+0C
+1B
+0D
+0?
+1&
+01
+1/
+00
+02
+0&
+0(
+1$
+0'
+#200000
+b100 "
+b110 "
+b101 !
+17
+1=
+0A
+1F
+1E
+1C
+0B
+0/
+10
+12
+13
+1%
+1&
+1(
+0$
+#240000
+b111 "
+b111 !
+b1111 "
+b1101 "
+b110 !
+07
+1<
+18
+0=
+1A
+0C
+1B
+1/
+00
+0(
+1$
+#280000
+b101 "
+b111 !
+17
+0A
+0F
+19
+1C
+0B
+0/
+10
+03
+0E
+1>
+0%
+1(
+0$
+02
+1D
+1?
+0&
+11
+1'
+#320000
+b1111 !
+b1011 !
+1#
+b100 "
+b1001 !
+b110 "
+b1110 "
+b1000 !
+1:
+08
+1=
+1A
+07
+0<
+04
+1@
+1F
+09
+1B
+0D
+06
+01
+1/
+13
+1E
+0>
+1%
+1$
+0'
+12
+1D
+0?
+1&
+11
+0C
+1'
+00
+0(
+#360000
+b1010 "
+0#
+b1001 !
+0:
+17
+05
+0D
+01
+0'
+#400000
+b1011 !
+b1110 "
+b1010 !
+15
+07
+1<
+1D
+0F
+0E
+1>
+02
+03
+11
+0D
+1?
+1'
+0%
+0&
+01
+1C
+0'
+10
+1(
+#440000
+b1100 "
+1#
+b1000 "
+b1011 !
+1:
+17
+0=
+05
+1;
+1E
+0>
+1D
+0?
+11
+12
+0E
+1>
+0D
+0C
+1&
+1'
+00
+01
+02
+1D
+0&
+0'
+0(
+11
+1'
+#480000
+b1111 !
+b0 "
+b1101 !
+b10 "
+0#
+b110 "
+b1100 !
+1=
+15
+0A
+07
+0<
+14
+0:
+1?
+16
+1C
+0B
+0;
+0/
+10
+0C
+1B
+1E
+0>
+1(
+0$
+12
+1/
+00
+0D
+0?
+0(
+1$
+1&
+01
+0'
+#520000
+b10 "
+b1101 !
+17
+05
+1F
+1D
+06
+11
+13
+1C
+0B
+1%
+1'
+0/
+10
+1(
+0$
+#560000
+b1010 "
+b1111 !
+1#
+b1110 !
+07
+1<
+1A
+1:
+0E
+1>
+0C
+1B
+1/
+00
+02
+0D
+1?
+0&
+0(
+1$
+01
+1C
+0'
+10
+1(
+#600000
+b1110 "
+0#
+b1111 !
+0:
+17
+15
+1D
+16
+11
+1'
+#640000
+b111 !
+b11 !
+b1 !
+b1010 "
+b0 !
+05
+07
+0<
+04
+0@
+0?
+06
+0F
+1E
+0>
+0C
+00
+12
+03
+1C
+0B
+0D
+0%
+1&
+0(
+01
+0/
+10
+1(
+0$
+0'
+#680000
+b1011 "
+b11 "
+b1 !
+17
+18
+0A
+19
+0C
+00
+0E
+1>
+0(
+02
+1D
+0&
+11
+1'
+#720000
+b1 "
+b11 !
+b1001 "
+b10 !
+07
+1<
+0=
+1A
+1F
+09
+1C
+10
+13
+1E
+0>
+1%
+1(
+12
+0D
+1&
+01
+0'
+#760000
+b1000 "
+b1010 "
+b10 "
+b11 !
+17
+08
+1=
+0A
+0E
+1>
+0C
+00
+02
+1D
+0&
+0(
+11
+1'
+#800000
+1#
+b111 !
+b110 "
+b101 !
+b100 "
+b1100 "
+b100 !
+1:
+0=
+15
+1A
+07
+0<
+14
+0>
+1?
+16
+1C
+10
+0D
+0?
+0C
+1B
+1(
+1/
+00
+01
+0'
+0(
+1$
+#840000
+b1101 "
+b101 !
+17
+18
+1;
+19
+1E
+12
+1&
+#880000
+0#
+b1001 "
+b111 !
+b1011 "
+b1010 "
+b110 !
+0:
+07
+1<
+08
+1=
+05
+0F
+0;
+09
+1>
+1D
+06
+11
+03
+0E
+0D
+1?
+1C
+0B
+0%
+1'
+0/
+10
+01
+02
+0C
+1B
+0&
+0'
+1(
+0$
+1/
+00
+0(
+1$
+#920000
+b10 "
+b11 "
+b111 !
+17
+18
+0A
+19
+1C
+0B
+0/
+10
+1E
+1(
+0$
+12
+1&
+#960000
+b1111 !
+b1011 !
+1#
+b111 "
+b1001 !
+b1111 "
+b1000 !
+1:
+15
+1A
+07
+0<
+04
+1@
+1;
+1B
+09
+0E
+02
+1/
+1$
+0&
+#1000000

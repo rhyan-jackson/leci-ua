@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao</title>
+    <script src="cliquenoBotao.js"></script>
+
+    <style>
+        body {
+            background-color: purple;
+        }
+        #btn {
+            background-color: violet;
+            padding: 20px;
+            font-family: Jetbrains Mono;
+            font-size: 20px;
+            border: none;
+            border-radius: 15px;
+            transition: background-color 0.3, box-shadow 0.3s;
+            box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <button id="btn" onmouseover="move()">Clique</button> -->
+    <button id="btn" onclick="changeColor()">Clique</button>
+</body>
+</html>

@@ -1,0 +1,758 @@
+$comment
+	File created using the following command:
+		vcd file projetoTreino2.msim.vcd -direction
+$end
+$date
+	Sat Apr 13 13:40:21 2024
+$end
+$version
+	Questa Intel Starter FPGA Edition Version 2021.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module projetotreino2_vhd_vec_tst $end
+$var wire 1 ! CLOCK_50 $end
+$var wire 1 " HEX0 [6] $end
+$var wire 1 # HEX0 [5] $end
+$var wire 1 $ HEX0 [4] $end
+$var wire 1 % HEX0 [3] $end
+$var wire 1 & HEX0 [2] $end
+$var wire 1 ' HEX0 [1] $end
+$var wire 1 ( HEX0 [0] $end
+$var wire 1 ) LEDG [3] $end
+$var wire 1 * LEDG [2] $end
+$var wire 1 + LEDG [1] $end
+$var wire 1 , LEDG [0] $end
+$var wire 1 - LEDR [3] $end
+$var wire 1 . LEDR [2] $end
+$var wire 1 / LEDR [1] $end
+$var wire 1 0 LEDR [0] $end
+$var wire 1 1 SW [1] $end
+$var wire 1 2 SW [0] $end
+
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var wire 1 6 devoe $end
+$var wire 1 7 devclrn $end
+$var wire 1 8 devpor $end
+$var wire 1 9 ww_devoe $end
+$var wire 1 : ww_devclrn $end
+$var wire 1 ; ww_devpor $end
+$var wire 1 < ww_CLOCK_50 $end
+$var wire 1 = ww_SW [1] $end
+$var wire 1 > ww_SW [0] $end
+$var wire 1 ? ww_LEDR [3] $end
+$var wire 1 @ ww_LEDR [2] $end
+$var wire 1 A ww_LEDR [1] $end
+$var wire 1 B ww_LEDR [0] $end
+$var wire 1 C ww_LEDG [3] $end
+$var wire 1 D ww_LEDG [2] $end
+$var wire 1 E ww_LEDG [1] $end
+$var wire 1 F ww_LEDG [0] $end
+$var wire 1 G ww_HEX0 [6] $end
+$var wire 1 H ww_HEX0 [5] $end
+$var wire 1 I ww_HEX0 [4] $end
+$var wire 1 J ww_HEX0 [3] $end
+$var wire 1 K ww_HEX0 [2] $end
+$var wire 1 L ww_HEX0 [1] $end
+$var wire 1 M ww_HEX0 [0] $end
+$var wire 1 N \LEDR[0]~output_o\ $end
+$var wire 1 O \LEDR[1]~output_o\ $end
+$var wire 1 P \LEDR[2]~output_o\ $end
+$var wire 1 Q \LEDR[3]~output_o\ $end
+$var wire 1 R \LEDG[0]~output_o\ $end
+$var wire 1 S \LEDG[1]~output_o\ $end
+$var wire 1 T \LEDG[2]~output_o\ $end
+$var wire 1 U \LEDG[3]~output_o\ $end
+$var wire 1 V \HEX0[0]~output_o\ $end
+$var wire 1 W \HEX0[1]~output_o\ $end
+$var wire 1 X \HEX0[2]~output_o\ $end
+$var wire 1 Y \HEX0[3]~output_o\ $end
+$var wire 1 Z \HEX0[4]~output_o\ $end
+$var wire 1 [ \HEX0[5]~output_o\ $end
+$var wire 1 \ \HEX0[6]~output_o\ $end
+$var wire 1 ] \CLOCK_50~input_o\ $end
+$var wire 1 ^ \blinkForLeds_2hz|s_counter~1_combout\ $end
+$var wire 1 _ \blinkForLeds_2hz|s_counter~2_combout\ $end
+$var wire 1 ` \blinkForLeds_2hz|s_counter~0_combout\ $end
+$var wire 1 a \SW[0]~input_o\ $end
+$var wire 1 b \SW[1]~input_o\ $end
+$var wire 1 c \options_mux|dataOut[4]~0_combout\ $end
+$var wire 1 d \options_mux|dataOut[4]~1_combout\ $end
+$var wire 1 e \options_mux|Equal1~0_combout\ $end
+$var wire 1 f \options_mux|Equal1~1_combout\ $end
+$var wire 1 g sync_sw [1] $end
+$var wire 1 h sync_sw [0] $end
+$var wire 1 i \blinkForLeds_2hz|s_counter\ [2] $end
+$var wire 1 j \blinkForLeds_2hz|s_counter\ [1] $end
+$var wire 1 k \blinkForLeds_2hz|s_counter\ [0] $end
+$var wire 1 l ALT_INV_sync_sw [1] $end
+$var wire 1 m \options_mux|ALT_INV_dataOut[4]~1_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+03
+14
+x5
+16
+17
+18
+19
+1:
+1;
+0<
+1N
+1O
+1P
+1Q
+1R
+1S
+1T
+1U
+0V
+0W
+0X
+0Y
+0Z
+0[
+1\
+0]
+0^
+1_
+0`
+1a
+0b
+1c
+0d
+0e
+0f
+1m
+01
+12
+0=
+1>
+0g
+0h
+0i
+0j
+0k
+1l
+1"
+0#
+0$
+0%
+0&
+0'
+0(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+1?
+1@
+1A
+1B
+1C
+1D
+1E
+1F
+1G
+0H
+0I
+0J
+0K
+0L
+0M
+$end
+#15000
+1!
+1<
+1]
+1k
+1h
+0c
+1d
+1e
+0_
+1`
+0m
+1Z
+1I
+1V
+1Y
+1[
+0N
+0O
+0P
+0Q
+1$
+0R
+0S
+0T
+0U
+1M
+1J
+1H
+0B
+0A
+0@
+0?
+0F
+0E
+0D
+0C
+1(
+1%
+1#
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+#30000
+0!
+0<
+0]
+#45000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#60000
+0!
+0<
+0]
+#75000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#90000
+0!
+0<
+0]
+#105000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#120000
+0!
+0<
+0]
+#135000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#150000
+0!
+0<
+0]
+#165000
+1!
+1<
+1]
+1k
+0_
+1`
+#180000
+0!
+0<
+0]
+#195000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#210000
+0!
+0<
+0]
+#225000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#240000
+0!
+0<
+0]
+#255000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#270000
+0!
+0<
+0]
+#285000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#300000
+0!
+0<
+0]
+#315000
+1!
+1<
+1]
+1k
+0_
+1`
+#330000
+0!
+0<
+0]
+#345000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#360000
+0!
+0<
+0]
+#375000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#390000
+0!
+0<
+0]
+#405000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#420000
+0!
+0<
+0]
+#435000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#450000
+0!
+0<
+0]
+#465000
+1!
+1<
+1]
+1k
+0_
+1`
+#480000
+0!
+0<
+0]
+#495000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#510000
+0!
+0<
+0]
+#525000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#540000
+0!
+0<
+0]
+#555000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#570000
+0!
+0<
+0]
+#585000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#600000
+0!
+0<
+0]
+#615000
+1!
+1<
+1]
+1k
+0_
+1`
+#630000
+0!
+0<
+0]
+#645000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#660000
+0!
+0<
+0]
+#675000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#690000
+0!
+0<
+0]
+#705000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#720000
+0!
+0<
+0]
+#735000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#750000
+0!
+0<
+0]
+#765000
+1!
+1<
+1]
+1k
+0_
+1`
+#780000
+0!
+0<
+0]
+#795000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#810000
+0!
+0<
+0]
+#825000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#840000
+0!
+0<
+0]
+#855000
+1!
+1<
+1]
+1i
+0k
+0j
+0^
+#870000
+0!
+0<
+0]
+#885000
+1!
+1<
+1]
+0i
+1_
+0c
+0N
+0O
+0P
+0Q
+0B
+0A
+0@
+0?
+00
+0/
+0.
+0-
+#900000
+0!
+0<
+0]
+#915000
+1!
+1<
+1]
+1k
+0_
+1`
+#930000
+0!
+0<
+0]
+#945000
+1!
+1<
+1]
+0k
+1j
+1c
+1_
+1N
+1O
+1P
+1Q
+1B
+1A
+1@
+1?
+10
+1/
+1.
+1-
+#960000
+0!
+0<
+0]
+#975000
+1!
+1<
+1]
+1k
+1^
+0_
+0`
+#990000
+0!
+0<
+0]
+#1000000

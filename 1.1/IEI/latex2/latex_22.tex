@@ -1,0 +1,148 @@
+%! Author = rhyan
+%! Date = 17/10/23
+
+% Preamble
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+%\usepackage{showlabels}
+\usepackage{textcomp}
+\usepackage{graphicx}
+% Capa
+\title{\textbf{Entendendo \LaTeX}}
+\author{Rhyan Jackson Marinho Matos}
+\date{\today}
+% Documento
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \part[Listas]{Listas ordenadas e não ordenadas}\label{part:listas}
+    
+    
+    \chapter{Não ordenadas}\label{chap:nao-ordenadas}
+            \section{Itemize}\label{sec:itemize}
+                Aqui está a lista:
+                \begin{itemize}\label{lista-itemize-exemplo}
+                    \item primeiro item.
+                    \item segundo item.
+                    \item terceiro item.
+                    \item quarto item.
+                \end{itemize}
+                Mas, pode-se trocar a forma de visualização:
+                \begin{itemize}\label{lista-itemize-outravisu-exemplo}
+                    \item[+] item 1.
+                    \item[o] item 2.
+                    \item[*] item 3.
+                \end{itemize}
+            \section{Descriptions}\label{sec:descriptions}
+                Aqui está o outro tipo de lista:
+                \begin{description}\label{lista-desc-exemplo}
+                    \item[UA] - TESTE
+                    \item[UB] - TESTE
+                    \item[UC] - TESTE
+                \end{description}
+                Aqui retorna a indentação.
+    
+        \chapter{Ordenadas}\label{chap:ordenadas}
+            \section{Enumerate}\label{sec:enumerate}
+                Enumerate padrão:
+                \begin{enumerate}\label{lista-enumerate-exemplo}
+                    \item Item 1
+                    \item Item 2
+                    \item Item 3
+                \end{enumerate}
+                Enumerate com números romanos:
+                \renewcommand{\theenumi}{\Roman{enumi}}
+                \begin{enumerate}\label{lista-enumerate-exemplo-interna}
+                    \item Item 1
+                    \item Item 2
+                    \item Item 3
+                \end{enumerate}
+    
+        \chapter{Mix}\label{chap:mix}
+            \renewcommand{\theenumi}{\Roman{enumi}}
+            \begin{enumerate}\label{lista-enumerate-mix}
+                \item Este é um item, com subitems
+                    \renewcommand{\theenumi}{\alpha{enumi}}
+                    \begin{enumerate}\label{lista-enumerate-mix-interna}
+                        \item Este é um item
+                        \item Este é outro item
+                        \item etc.
+                    \end{enumerate}
+                \renewcommand{\theenumi}{\Roman{enumi}}
+                \item Este é outro item
+                \item etc.
+            \end{enumerate}
+            Aqui retorna a indentação
+    
+    \part[Imagens e Tabelas]{Utilização de Imagens e Tabelas}\label{part:imagens-e-tabelas}
+    
+        \chapter{Imagens}\label{chap:imagens}
+            Termos para o begin figure:
+                \begin{description}\label{lista-termos-figure}
+                    \item[h] - a figura fica aonde o comando foi dado.
+                    \item[t] - a figura fica no topo da página.
+                    \item[b] - a figura fica no fundo da página.
+                    \item[p] - a figura fica numa página isolada.
+                \end{description}
+            \begin{figure}[h]\label{figura-imagens}
+            \centerline{\fbox{Conteúdo da figura.}}
+            \caption{Legenda da figura}
+            \end{figure}
+        \chapter{Tabelas}\label{exemplo-tabela}
+            \begin{table}[h]\label{tabela-exemplo}
+                \caption{Exemplo de uma tabela}\label{cap-exemplo-tabela}
+                    \centerline{Conteúdo da tabela}
+            \end{table}
+
+    Testando a referência:~\ref{figura-imagens}
+    
+    \part[Tabular e Matrizes]{Utilização de Tabulares e Matrizes}\label{part:tabular-matrizes}
+        
+        \chapter{Tabular}\label{chap:tabular}
+            \begin{tabular}{|l||c|r|} % Alinhamento: Esquerda, Centro, Direita
+                
+                \hline
+                    & Temperatura & Umidade \\
+            Cidade  & (\textordmasculine C) & (perc.) \\ \hline\hline
+            Aveiro  & 10 & 90 \\ \hline
+            Lisboa  & 9 & 89 \\ \hline
+            \end{tabular}
+    
+    \part[Imagens]{Inserção de imagens no \LaTeX}\label{part:imagens-graphics}
+        
+        \chapter{Include Graphics}\label{chap:include-graphics}
+            \begin{figure}[h]\label{imagem-exemplo}
+                \center
+                \includegraphics[height=150pt]{test}
+                \caption{Legenda da figura}
+            \end{figure}
+            As imagens têm várias opções possíveis ao serem colocadas no documento, são elas:
+            \begin{description}\label{opcoes-imagem-lista}
+                \item[height] - altura da imagem.
+                \item[width] - largura da imagem.
+                \item[scale] - fator de escala.
+                \item[angle] - ângulo de rotação.
+            \end{description}
+            
+            Um outro exemplo de uso:
+            \begin{figure}[h]
+                \center% Centra as imagens
+                    a)\includegraphics[height=10cm]{test}
+                    b)\includegraphics[height=3cm]{test}
+                    c)\includegraphics[width=20mm]{test}
+                    d)\includegraphics[scale=.5,angle=90]{test}
+                    e)\includegraphics[height=5mm,width=3cm]{test}
+                \caption{Logotipo da Universidade de Aveiro:
+                a) na dimensão real,
+                    b) com 3cm de altura,
+                    c) com 20mm de largura,
+                    d) com altura e largura reduzidas a $1/2$ e simultaneamente rodado 90ºe
+                    e) com uma modificação anamórfica da altura e da largura.}
+                \label{fig:ualogo.2}
+            \end{figure}
+    
+    
+    
+    
+    
+    \end{document}

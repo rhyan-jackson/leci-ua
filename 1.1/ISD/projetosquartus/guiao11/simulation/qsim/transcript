@@ -1,0 +1,53 @@
+# do SeqDet1101.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:41:03 on Dec 13,2023
+# vlog -work work SeqDet1101.vo 
+# -- Compiling module SpecialCount0_9
+# 
+# Top level modules:
+# 	SpecialCount0_9
+# End time: 10:41:03 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:41:03 on Dec 13,2023
+# vlog -work work counter.vwf.vt 
+# -- Compiling module SpecialCount0_9_vlg_vec_tst
+# 
+# Top level modules:
+# 	SpecialCount0_9_vlg_vec_tst
+# End time: 10:41:03 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.SpecialCount0_9_vlg_vec_tst 
+# Start time: 10:41:03 on Dec 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.SpecialCount0_9_vlg_vec_tst(fast)
+# Loading work.SpecialCount0_9(fast)
+# Loading cycloneive_ver.cycloneive_io_obuf(fast)
+# Loading cycloneive_ver.cycloneive_io_ibuf(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast)
+# Loading altera_ver.dffeas(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__4)
+# after#26
+# ** Note: $finish    : counter.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /SpecialCount0_9_vlg_vec_tst
+# End time: 10:41:04 on Dec 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

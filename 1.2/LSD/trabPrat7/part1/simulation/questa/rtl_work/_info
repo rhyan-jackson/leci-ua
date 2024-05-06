@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/simulation/questa
+T_opt
+!s110 1713862255
+VOgb^3]D;5QFDCQG<^_Jk:0
+04 11 8 work dec2_4en_tb stimulus 1
+=1-000ae431a4f1-6627766f-46bef-31e3
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work rtl_work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Edec2_4en
+Z1 w1713861298
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En.vhd
+Z5 F/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En.vhd
+l0
+L3 1
+V3Gga4je?:A1NHYY1aVjdG1
+!s100 F8Fll1KA3aObQ^4N?2af:1
+Z6 OL;C;2021.2;73
+31
+Z7 !s110 1713862010
+!i10b 1
+Z8 !s108 1713862010.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En.vhd|
+Z10 !s107 /home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 8 dec2_4en 0 22 3Gga4je?:A1NHYY1aVjdG1
+!i122 0
+l9
+L8 18
+VAgcDn?=hS]mbFI]9Q1oOI3
+!s100 leXegknHFzmg>NZF>1JG:2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Edec2_4en_tb
+Z14 w1713861851
+R2
+R3
+!i122 4
+R0
+Z15 8/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En_Tb.vhd
+Z16 F/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En_Tb.vhd
+l0
+L4 1
+VJFn^2kR:<odPWJMeHK4`[0
+!s100 EGUfSIK5TJKnYz=C^oXk`0
+R6
+32
+Z17 !s110 1713862241
+!i10b 1
+Z18 !s108 1713862240.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En_Tb.vhd|
+Z20 !s107 /home/rhyan/Documents/ua/1.2/LSD/trabPrat7/part1/Dec2_4En_Tb.vhd|
+!i113 0
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 11 dec2_4en_tb 0 22 JFn^2kR:<odPWJMeHK4`[0
+!i122 4
+l12
+L6 30
+Vij=MG2i__0o8Y3_dM>;l^3
+!s100 470DMVNX9^E;bbT53CJYQ2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R12

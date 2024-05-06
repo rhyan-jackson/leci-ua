@@ -1,0 +1,228 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rhyan/Documents/ua/1.2/LSD/toolsProject/simulation/qsim
+T_opt
+Z2 !s110 1712580331
+VZjbcGzU1@Bg^Od<Nd2V@S3
+04 26 19 work blinkgenerator_vhd_vec_tst blinkgenerator_arch 1
+=1-000ae431a4f1-6613e6eb-4aa9b-47b40
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+T_opt1
+!s110 1712511375
+VO6eAm<SLV[<znK6Dah<5C3
+04 26 19 work pulsegenerator_vhd_vec_tst pulsegenerator_arch 1
+=1-000ae431a4f1-6612d98f-98db6-96e28
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+Eblinkgenerator
+Z7 w1712580330
+Z8 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z9 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z10 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z11 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z12 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z15 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 20
+R1
+Z16 8tools.vho
+Z17 Ftools.vho
+l0
+Z18 L37 1
+VG=T>jzTWk:6:i:O@9GN5?0
+!s100 ePXYmRT;bV0Ufn9XQn2dN1
+Z19 OL;C;2021.2;73
+32
+R2
+!i10b 1
+Z20 !s108 1712580330.000000
+Z21 !s90 -work|work|tools.vho|
+Z22 !s107 tools.vho|
+!i113 0
+Z23 o-work work
+Z24 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+DEx4 work 14 blinkgenerator 0 22 G=T>jzTWk:6:i:O@9GN5?0
+!i122 20
+l66
+L45 147
+VnSZIKJIO93X<=n;3KjMfV2
+!s100 6@Iz1gf6<mEYbBU?koid^0
+R19
+32
+R2
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R23
+R24
+Eblinkgenerator_vhd_vec_tst
+Z25 w1712580329
+R13
+R14
+!i122 21
+R1
+Z26 8BlinkGenerator.vwf.vht
+Z27 FBlinkGenerator.vwf.vht
+l0
+Z28 L32 1
+VnDzj3NE^fhi:IRaGHGl7O0
+!s100 =QJUe=E_F=j;[[NjQie`E0
+R19
+32
+R2
+!i10b 1
+Z29 !s108 1712580331.000000
+Z30 !s90 -work|work|BlinkGenerator.vwf.vht|
+Z31 !s107 BlinkGenerator.vwf.vht|
+!i113 0
+R23
+R24
+Ablinkgenerator_arch
+R13
+R14
+DEx4 work 26 blinkgenerator_vhd_vec_tst 0 22 nDzj3NE^fhi:IRaGHGl7O0
+!i122 21
+l47
+Z32 L34 43
+VM>nCfCSOfC4SWVd4KHaVh1
+!s100 JkJS6T8fh_eTUgmkQnKl30
+R19
+32
+R2
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R23
+R24
+Epulsegenerator
+Z33 w1712580022
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+!i122 12
+R1
+R16
+R17
+l0
+R18
+V0`f4E0nNXgM@=JRKN6f;d1
+!s100 AkHfG_2`e37]=@TCUSL<U2
+R19
+32
+Z34 !s110 1712580023
+!i10b 1
+Z35 !s108 1712580022.000000
+R21
+R22
+!i113 0
+R23
+R24
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+DEx4 work 14 pulsegenerator 0 22 0`f4E0nNXgM@=JRKN6f;d1
+!i122 12
+l126
+L45 1108
+V9TN``LdWdD5F8:;36:nGB3
+!s100 dXZV>=<:6ONRgndO6<MT;0
+R19
+32
+R34
+!i10b 1
+R35
+R21
+R22
+!i113 0
+R23
+R24
+Epulsegenerator_vhd_vec_tst
+Z36 w1712580021
+R13
+R14
+!i122 13
+R1
+R26
+R27
+l0
+R28
+V1z?GQL5MkWW^ZTZbXf8zl2
+!s100 <3lnGCEWDz=Ek8L>;Kl7m3
+R19
+32
+R34
+!i10b 1
+Z37 !s108 1712580023.000000
+R30
+R31
+!i113 0
+R23
+R24
+Apulsegenerator_arch
+R13
+R14
+DEx4 work 26 pulsegenerator_vhd_vec_tst 0 22 1z?GQL5MkWW^ZTZbXf8zl2
+!i122 13
+l47
+R32
+V9iLIEd]SI7ghae=<D;8@m3
+!s100 iLHb50SFaY2;NQaM3oE]P3
+R19
+32
+R34
+!i10b 1
+R37
+R30
+R31
+!i113 0
+R23
+R24

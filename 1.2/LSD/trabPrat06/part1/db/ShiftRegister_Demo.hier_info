@@ -1,0 +1,99 @@
+|ShiftRegister_Demo
+CLOCK_50 => clkdividern:clock_1hz.clkIn
+CLOCK_50 => sync_sw[0].CLK
+CLOCK_50 => sync_sw[1].CLK
+CLOCK_50 => sync_sw[2].CLK
+CLOCK_50 => sync_sw[3].CLK
+CLOCK_50 => sync_sw[4].CLK
+CLOCK_50 => sync_sw[5].CLK
+CLOCK_50 => sync_sw[6].CLK
+CLOCK_50 => sync_sw[7].CLK
+CLOCK_50 => sync_sw[8].CLK
+CLOCK_50 => sync_sw[9].CLK
+SW[0] => sync_sw[0].DATAIN
+SW[1] => sync_sw[1].DATAIN
+SW[2] => sync_sw[2].DATAIN
+SW[3] => sync_sw[3].DATAIN
+SW[4] => sync_sw[4].DATAIN
+SW[5] => sync_sw[5].DATAIN
+SW[6] => sync_sw[6].DATAIN
+SW[7] => sync_sw[7].DATAIN
+SW[8] => sync_sw[8].DATAIN
+SW[9] => sync_sw[9].DATAIN
+LEDG[0] <= shiftregisterloadn:shift_register.dataOut[0]
+LEDG[1] <= shiftregisterloadn:shift_register.dataOut[1]
+LEDG[2] <= shiftregisterloadn:shift_register.dataOut[2]
+LEDG[3] <= shiftregisterloadn:shift_register.dataOut[3]
+LEDG[4] <= shiftregisterloadn:shift_register.dataOut[4]
+LEDG[5] <= shiftregisterloadn:shift_register.dataOut[5]
+LEDG[6] <= shiftregisterloadn:shift_register.dataOut[6]
+LEDG[7] <= shiftregisterloadn:shift_register.dataOut[7]
+
+
+|ShiftRegister_Demo|ClkDividerN:clock_1hz
+clkIn => s_divCounter[0].CLK
+clkIn => s_divCounter[1].CLK
+clkIn => s_divCounter[2].CLK
+clkIn => s_divCounter[3].CLK
+clkIn => s_divCounter[4].CLK
+clkIn => s_divCounter[5].CLK
+clkIn => s_divCounter[6].CLK
+clkIn => s_divCounter[7].CLK
+clkIn => s_divCounter[8].CLK
+clkIn => s_divCounter[9].CLK
+clkIn => s_divCounter[10].CLK
+clkIn => s_divCounter[11].CLK
+clkIn => s_divCounter[12].CLK
+clkIn => s_divCounter[13].CLK
+clkIn => s_divCounter[14].CLK
+clkIn => s_divCounter[15].CLK
+clkIn => s_divCounter[16].CLK
+clkIn => s_divCounter[17].CLK
+clkIn => s_divCounter[18].CLK
+clkIn => s_divCounter[19].CLK
+clkIn => s_divCounter[20].CLK
+clkIn => s_divCounter[21].CLK
+clkIn => s_divCounter[22].CLK
+clkIn => s_divCounter[23].CLK
+clkIn => s_divCounter[24].CLK
+clkIn => s_divCounter[25].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ShiftRegister_Demo|ShiftRegisterLoadN:shift_register
+clk => s_register[0].CLK
+clk => s_register[1].CLK
+clk => s_register[2].CLK
+clk => s_register[3].CLK
+clk => s_register[4].CLK
+clk => s_register[5].CLK
+clk => s_register[6].CLK
+clk => s_register[7].CLK
+sIn => s_register.DATAA
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+load => s_register.OUTPUTSELECT
+bitsIn[0] => s_register.DATAB
+bitsIn[1] => s_register.DATAB
+bitsIn[2] => s_register.DATAB
+bitsIn[3] => s_register.DATAB
+bitsIn[4] => s_register.DATAB
+bitsIn[5] => s_register.DATAB
+bitsIn[6] => s_register.DATAB
+bitsIn[7] => s_register.DATAB
+dataOut[0] <= s_register[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= s_register[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= s_register[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= s_register[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= s_register[4].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= s_register[5].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= s_register[6].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= s_register[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

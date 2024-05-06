@@ -1,0 +1,43 @@
+|block_use
+Y <= exercicio:inst.Y
+D => insta.IN0
+D => exercicio:inst.X4
+D => exercicio:inst.X5
+A => exercicio:inst.S[2]
+B => exercicio:inst.S[1]
+C => exercicio:inst.S[0]
+
+
+|block_use|exercicio:inst
+Y <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X1 => 74153:inst.1C1
+S[0] => 74153:inst.A
+S[1] => 74153:inst.B
+S[2] => 74153:inst.1GN
+S[2] => inst2.IN0
+X0 => 74153:inst.1C0
+X4 => 74153:inst.2C0
+X6 => 74153:inst.2C2
+X2 => 74153:inst.1C2
+X3 => 74153:inst.1C3
+X5 => 74153:inst.2C1
+X7 => 74153:inst.2C3
+
+
+|block_use|exercicio:inst|74153:inst
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+

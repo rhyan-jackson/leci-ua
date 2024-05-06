@@ -1,0 +1,90 @@
+$comment
+	File created using the following command:
+		vcd file out25.msim.vcd -direction
+$end
+$date
+	Wed Oct 25 21:40:42 2023
+$end
+$version
+	Questa Intel Starter FPGA Edition Version 2021.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module out25_vhd_vec_tst $end
+$var wire 1 ! in1 $end
+$var wire 1 " in2 $end
+$var wire 1 # out1 $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var wire 1 ' devoe $end
+$var wire 1 ( devclrn $end
+$var wire 1 ) devpor $end
+$var wire 1 * ww_devoe $end
+$var wire 1 + ww_devclrn $end
+$var wire 1 , ww_devpor $end
+$var wire 1 - ww_out1 $end
+$var wire 1 . ww_in1 $end
+$var wire 1 / ww_in2 $end
+$var wire 1 0 \out1~output_o\ $end
+$var wire 1 1 \in1~input_o\ $end
+$var wire 1 2 \in2~input_o\ $end
+$var wire 1 3 \inst~combout\ $end
+$var wire 1 4 \ALT_INV_inst~combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+1%
+x&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+0.
+0/
+10
+01
+02
+03
+14
+$end
+#20000
+1"
+1/
+12
+#50000
+1!
+1.
+11
+13
+04
+00
+0-
+0#
+#80000
+0"
+0/
+02
+03
+14
+10
+1-
+1#
+#100000
+0!
+0.
+01
+#1000000

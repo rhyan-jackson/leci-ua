@@ -1,0 +1,46 @@
+# do GateDemo.do
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:25:50 on Feb 20,2024
+# vlog -work work GateDemo.vo 
+# -- Compiling module GateDemo
+# 
+# Top level modules:
+# 	GateDemo
+# End time: 10:25:50 on Feb 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:25:50 on Feb 20,2024
+# vlog -work work GateDemo.vwf.vt 
+# -- Compiling module GateDemo_vlg_vec_tst
+# 
+# Top level modules:
+# 	GateDemo_vlg_vec_tst
+# End time: 10:25:50 on Feb 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.GateDemo_vlg_vec_tst 
+# Start time: 10:25:50 on Feb 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.GateDemo_vlg_vec_tst(fast)
+# Loading work.GateDemo(fast)
+# Loading cycloneive_ver.cycloneive_io_obuf(fast)
+# Loading cycloneive_ver.cycloneive_io_ibuf(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast)
+# after#24
+# ** Note: $finish    : GateDemo.vwf.vt(45)
+#    Time: 1 us  Iteration: 0  Instance: /GateDemo_vlg_vec_tst
+# End time: 10:25:52 on Feb 20,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

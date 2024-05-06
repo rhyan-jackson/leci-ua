@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 13 16:24:55 2024
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : projetoTreino2
+Top-level Entity Name : projetoTreino2
+Family : Cyclone IV E
+Total logic elements : 228
+    Total combinational functions : 226
+    Dedicated logic registers : 146
+Total registers : 146
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

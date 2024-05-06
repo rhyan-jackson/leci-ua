@@ -1,0 +1,12 @@
+|enunciado2
+Q[0] <= ff0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= ff1.DB_MAX_OUTPUT_PORT_TYPE
+CLK => ff1.CLK
+CLK => ff0.CLK
+X => inst6.IN0
+X => inst3.IN0
+X => inst9.IN0
+RESET_L => inst12.IN1
+RESET_L => inst13.IN1
+
+

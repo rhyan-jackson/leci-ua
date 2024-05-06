@@ -1,0 +1,144 @@
+{
+    "stats": [
+        {
+            "time": 1710938317.4658418,
+            "time_after_exec": 0.00012969970703125,
+            "bytes_sent": 15958209,
+            "bytes_receiv": 392201921,
+            "cpu_occupation_percent": 38.3
+        },
+        {
+            "time": 1710938318.4675727,
+            "time_after_exec": 1.0018606185913086,
+            "bytes_sent": 15958209,
+            "bytes_receiv": 392201921,
+            "cpu_occupation_percent": 12.1
+        },
+        {
+            "time": 1710938319.4691982,
+            "time_after_exec": 2.003486156463623,
+            "bytes_sent": 15958209,
+            "bytes_receiv": 392201921,
+            "cpu_occupation_percent": 19.7
+        },
+        {
+            "time": 1710938320.4699178,
+            "time_after_exec": 3.0042057037353516,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 20.8
+        },
+        {
+            "time": 1710938321.4707274,
+            "time_after_exec": 4.0050153732299805,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 24.9
+        },
+        {
+            "time": 1710938322.4721096,
+            "time_after_exec": 5.006397485733032,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 13.1
+        },
+        {
+            "time": 1710938323.4731176,
+            "time_after_exec": 6.007405519485474,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 8.2
+        },
+        {
+            "time": 1710938324.4739408,
+            "time_after_exec": 7.008228778839111,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 7.1
+        },
+        {
+            "time": 1710938325.4747758,
+            "time_after_exec": 8.009063720703125,
+            "bytes_sent": 15958416,
+            "bytes_receiv": 392202084,
+            "cpu_occupation_percent": 5.6
+        },
+        {
+            "time": 1710938326.4756021,
+            "time_after_exec": 9.009890079498291,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 8.0
+        },
+        {
+            "time": 1710938327.4763575,
+            "time_after_exec": 10.010645389556885,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 16.0
+        },
+        {
+            "time": 1710938328.476975,
+            "time_after_exec": 11.011262893676758,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 7.4
+        },
+        {
+            "time": 1710938329.4777918,
+            "time_after_exec": 12.01207971572876,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 7.8
+        },
+        {
+            "time": 1710938330.4787962,
+            "time_after_exec": 13.013084173202515,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 8.3
+        },
+        {
+            "time": 1710938331.4796526,
+            "time_after_exec": 14.013940572738647,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 5.5
+        },
+        {
+            "time": 1710938332.481241,
+            "time_after_exec": 15.015528917312622,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 10.3
+        },
+        {
+            "time": 1710938333.482193,
+            "time_after_exec": 16.016480922698975,
+            "bytes_sent": 15958502,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 5.8
+        },
+        {
+            "time": 1710938334.4830983,
+            "time_after_exec": 17.017386198043823,
+            "bytes_sent": 15958608,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 5.6
+        },
+        {
+            "time": 1710938335.48387,
+            "time_after_exec": 18.018157958984375,
+            "bytes_sent": 15958608,
+            "bytes_receiv": 392202150,
+            "cpu_occupation_percent": 23.1
+        },
+        {
+            "time": 1710938336.4844995,
+            "time_after_exec": 19.018787384033203,
+            "bytes_sent": 15958963,
+            "bytes_receiv": 392202359,
+            "cpu_occupation_percent": 8.3
+        }
+    ]
+}
