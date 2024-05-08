@@ -1,0 +1,21 @@
+|DrinksFSM
+clk => s_currentState~1.DATAIN
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+sensor20 => s_nextState.OUTPUTSELECT
+sensor20 => s_nextState.OUTPUTSELECT
+sensor20 => s_nextState.OUTPUTSELECT
+sensor20 => Selector1.IN3
+sensor20 => Selector2.IN3
+sensor20 => Selector3.IN4
+sensor20 => Selector4.IN4
+sensor50 => s_nextState.DATAA
+sensor50 => s_nextState.DATAA
+sensor50 => s_nextState.DATAA
+dispenser <= dispenser.DB_MAX_OUTPUT_PORT_TYPE
+
+
