@@ -33,7 +33,7 @@ class Root():
 
 	# UpLoad image
 	@cherrypy.expose
-	def upload(self, myFile):
+	def upload(self, myFile, nameImg, authorImg):
 		h = hashlib.sha256()
 
 		filename = baseDir + "/uploads/" + myFile.filename
@@ -58,7 +58,7 @@ class Root():
 		# eventually initialize the votes tables
 
 		db = sql.connect('database.db')
-		# db.execute(query of type INSERT (nameImg, authorImg, path, datetime))
+		db.execute("INSERT INTO images(name, author, path, datetime) VALUES (?, ?, ?, ?);", (nameImg, authorImg, path, datetime))
 		db.commit()
 		db.close()
 
@@ -68,8 +68,10 @@ class Root():
 		db = sql.connect('database.db')
 		if (id == "all"):
 			# result = db.execute(query of type SELECT for all images)
+			None
 		else:
 			# result = db.execute(query of type SELECT for all images of the author id)
+			None
 		rows = result.fetchall()
 		db.close()
 

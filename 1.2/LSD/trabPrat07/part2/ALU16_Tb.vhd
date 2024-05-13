@@ -11,7 +11,7 @@ architecture Stimulus of ALU16_Tb is
 	signal s_res : std_logic_vector(15 downto 0);
 	signal s_mHi : std_logic_vector(15 downto 0);
 begin
-	uut: entity work.ALU16(Behavioral)
+	uut: entity work.ALU16(structure)
 	port map(op => s_op,
 				op0 => s_op0,
 				op1 => s_op1,

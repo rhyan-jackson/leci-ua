@@ -1,5 +1,5 @@
 
-State Machine - |DrinksFSM|s_currentState
+State Machine - |FPGAMAP_DrinksMachine|DrinksFSM:drink_machine|s_currentState
 Name s_currentState.SMAX s_currentState.S80_70 s_currentState.S60_50 s_currentState.S40 s_currentState.S20 s_currentState.S0 
 s_currentState.S0 0 0 0 0 0 0 
 s_currentState.S20 0 0 0 0 1 1 

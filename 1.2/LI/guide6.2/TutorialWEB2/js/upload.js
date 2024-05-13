@@ -35,9 +35,12 @@ function sendFile(file) {
 
 
 	//Obtain nameImg and authorImg and fill the form
-	var name = ""
-	
-	var author = ""
+	var name = document.getElementById("nameImg").value;
+	var author = document.getElementById("authorImg").value;
+
+	data.append("nameImg", name)
+	data.append("authorImg", author)
+
 
 	if (name == "" || author == "") alert("Missing name and/or author!");
 	else {
