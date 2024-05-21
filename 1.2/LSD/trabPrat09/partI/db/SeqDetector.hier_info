@@ -1,0 +1,55 @@
+|SeqDetector
+CLOCK_50 => clkdividern:divisor.clkIn
+SW[0] => seqdetfsm:system_core.xIn
+SW[1] => seqdetfsm:system_core.reset
+LEDG[0] << clkdividern:divisor.clkOut
+LEDR[0] << seqdetfsm:system_core.zOut
+
+
+|SeqDetector|ClkDividerN:divisor
+clkIn => s_divCounter[0].CLK
+clkIn => s_divCounter[1].CLK
+clkIn => s_divCounter[2].CLK
+clkIn => s_divCounter[3].CLK
+clkIn => s_divCounter[4].CLK
+clkIn => s_divCounter[5].CLK
+clkIn => s_divCounter[6].CLK
+clkIn => s_divCounter[7].CLK
+clkIn => s_divCounter[8].CLK
+clkIn => s_divCounter[9].CLK
+clkIn => s_divCounter[10].CLK
+clkIn => s_divCounter[11].CLK
+clkIn => s_divCounter[12].CLK
+clkIn => s_divCounter[13].CLK
+clkIn => s_divCounter[14].CLK
+clkIn => s_divCounter[15].CLK
+clkIn => s_divCounter[16].CLK
+clkIn => s_divCounter[17].CLK
+clkIn => s_divCounter[18].CLK
+clkIn => s_divCounter[19].CLK
+clkIn => s_divCounter[20].CLK
+clkIn => s_divCounter[21].CLK
+clkIn => s_divCounter[22].CLK
+clkIn => s_divCounter[23].CLK
+clkIn => s_divCounter[24].CLK
+clkIn => s_divCounter[25].CLK
+clkIn => s_divCounter[26].CLK
+clkIn => s_divCounter[27].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SeqDetector|SeqDetFSM:system_core
+clk => PS~1.DATAIN
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+xIn => NS.S1.DATAA
+xIn => zOut.DATAB
+xIn => Selector0.IN2
+xIn => NS.S10.DATAB
+xIn => NS.S100.DATAB
+zOut <= zOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,13 +1,16 @@
 |FPGAMAP_DrinksMachine
 CLOCK_50 => freqdivider:freq_1hz.clkIn
+CLOCK_50 => debounceunit:debouncer_sw0.refClk
+CLOCK_50 => debounceunit:debouncer_sw1.refClk
+CLOCK_50 => debounceunit:debouncer_key0.refClk
+CLOCK_50 => drinksfsm:drink_machine.clk
 CLOCK_50 => timern:timer1.clk
-SW[0] => drinksfsm:drink_machine.sensor20
-SW[1] => drinksfsm:drink_machine.sensor50
-KEY[0] => drinksfsm:drink_machine.reset
-KEY[0] => timern:timer1.reset
-KEY[1] => drinksfsm:drink_machine.clk
+SW[0] => debounceunit:debouncer_sw0.dirtyIn
+SW[1] => debounceunit:debouncer_sw1.dirtyIn
+KEY[0] => debounceunit:debouncer_key0.dirtyIn
+KEY[1] => ~NO_FANOUT~
 LEDG[0] <= timern:timer1.timerOut
-LEDG[1] <= freqdivider:freq_1hz.clkOut
+LEDR[17] <= freqdivider:freq_1hz.clkOut
 
 
 |FPGAMAP_DrinksMachine|FreqDivider:freq_1hz
@@ -108,6 +111,99 @@ k[30] => Add1.IN35
 k[31] => Add0.IN33
 k[31] => Add1.IN34
 clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGAMAP_DrinksMachine|DebounceUnit:debouncer_sw0
+refClk => s_pulsedOut.CLK
+refClk => s_debounceCnt[0].CLK
+refClk => s_debounceCnt[1].CLK
+refClk => s_debounceCnt[2].CLK
+refClk => s_debounceCnt[3].CLK
+refClk => s_debounceCnt[4].CLK
+refClk => s_debounceCnt[5].CLK
+refClk => s_debounceCnt[6].CLK
+refClk => s_debounceCnt[7].CLK
+refClk => s_debounceCnt[8].CLK
+refClk => s_debounceCnt[9].CLK
+refClk => s_debounceCnt[10].CLK
+refClk => s_debounceCnt[11].CLK
+refClk => s_debounceCnt[12].CLK
+refClk => s_debounceCnt[13].CLK
+refClk => s_debounceCnt[14].CLK
+refClk => s_debounceCnt[15].CLK
+refClk => s_debounceCnt[16].CLK
+refClk => s_debounceCnt[17].CLK
+refClk => s_debounceCnt[18].CLK
+refClk => s_debounceCnt[19].CLK
+refClk => s_debounceCnt[20].CLK
+refClk => s_debounceCnt[21].CLK
+refClk => s_debounceCnt[22].CLK
+refClk => s_previousIn.CLK
+refClk => s_dirtyIn.CLK
+dirtyIn => s_dirtyIn.DATAIN
+pulsedOut <= s_pulsedOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGAMAP_DrinksMachine|DebounceUnit:debouncer_sw1
+refClk => s_pulsedOut.CLK
+refClk => s_debounceCnt[0].CLK
+refClk => s_debounceCnt[1].CLK
+refClk => s_debounceCnt[2].CLK
+refClk => s_debounceCnt[3].CLK
+refClk => s_debounceCnt[4].CLK
+refClk => s_debounceCnt[5].CLK
+refClk => s_debounceCnt[6].CLK
+refClk => s_debounceCnt[7].CLK
+refClk => s_debounceCnt[8].CLK
+refClk => s_debounceCnt[9].CLK
+refClk => s_debounceCnt[10].CLK
+refClk => s_debounceCnt[11].CLK
+refClk => s_debounceCnt[12].CLK
+refClk => s_debounceCnt[13].CLK
+refClk => s_debounceCnt[14].CLK
+refClk => s_debounceCnt[15].CLK
+refClk => s_debounceCnt[16].CLK
+refClk => s_debounceCnt[17].CLK
+refClk => s_debounceCnt[18].CLK
+refClk => s_debounceCnt[19].CLK
+refClk => s_debounceCnt[20].CLK
+refClk => s_debounceCnt[21].CLK
+refClk => s_debounceCnt[22].CLK
+refClk => s_previousIn.CLK
+refClk => s_dirtyIn.CLK
+dirtyIn => s_dirtyIn.DATAIN
+pulsedOut <= s_pulsedOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGAMAP_DrinksMachine|DebounceUnit:debouncer_key0
+refClk => s_pulsedOut.CLK
+refClk => s_debounceCnt[0].CLK
+refClk => s_debounceCnt[1].CLK
+refClk => s_debounceCnt[2].CLK
+refClk => s_debounceCnt[3].CLK
+refClk => s_debounceCnt[4].CLK
+refClk => s_debounceCnt[5].CLK
+refClk => s_debounceCnt[6].CLK
+refClk => s_debounceCnt[7].CLK
+refClk => s_debounceCnt[8].CLK
+refClk => s_debounceCnt[9].CLK
+refClk => s_debounceCnt[10].CLK
+refClk => s_debounceCnt[11].CLK
+refClk => s_debounceCnt[12].CLK
+refClk => s_debounceCnt[13].CLK
+refClk => s_debounceCnt[14].CLK
+refClk => s_debounceCnt[15].CLK
+refClk => s_debounceCnt[16].CLK
+refClk => s_debounceCnt[17].CLK
+refClk => s_debounceCnt[18].CLK
+refClk => s_debounceCnt[19].CLK
+refClk => s_debounceCnt[20].CLK
+refClk => s_debounceCnt[21].CLK
+refClk => s_debounceCnt[22].CLK
+refClk => s_previousIn.CLK
+refClk => s_dirtyIn.CLK
+dirtyIn => s_dirtyIn.DATAIN
+pulsedOut <= s_pulsedOut.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |FPGAMAP_DrinksMachine|DrinksFSM:drink_machine

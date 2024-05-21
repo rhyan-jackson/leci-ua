@@ -1,5 +1,5 @@
 Fitter report for DrinksMachine
-Mon May 13 14:00:35 2024
+Tue May 14 09:43:56 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -39,10 +39,8 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
  31. I/O Rules Matrix
  32. Fitter Device Options
  33. Operating Settings and Conditions
- 34. Estimated Delay Added for Hold Timing Summary
- 35. Estimated Delay Added for Hold Timing Details
- 36. Fitter Messages
- 37. Fitter Suppressed Messages
+ 34. Fitter Messages
+ 35. Fitter Suppressed Messages
 
 
 
@@ -69,18 +67,18 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Mon May 13 14:00:35 2024          ;
+; Fitter Status                      ; Successful - Tue May 14 09:43:56 2024          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; DrinksMachine                                  ;
 ; Top-level Entity Name              ; FPGAMAP_DrinksMachine                          ;
 ; Family                             ; Cyclone IV E                                   ;
 ; Device                             ; EP4CE115F29C7                                  ;
 ; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 122 / 114,480 ( < 1 % )                        ;
-;     Total combinational functions  ; 119 / 114,480 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 71 / 114,480 ( < 1 % )                         ;
-; Total registers                    ; 71                                             ;
-; Total pins                         ; 6 / 529 ( 1 % )                                ;
+; Total logic elements               ; 321 / 114,480 ( < 1 % )                        ;
+;     Total combinational functions  ; 320 / 114,480 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 149 / 114,480 ( < 1 % )                        ;
+; Total registers                    ; 149                                            ;
+; Total pins                         ; 7 / 529 ( 1 % )                                ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                          ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                ;
@@ -161,7 +159,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.3%      ;
 +----------------------------+-------------+
 
 
@@ -503,7 +501,6 @@ https://fpgasoftware.intel.com/eula.
 ; Location ;                ;              ; I2C_SCLK         ; PIN_B7        ; QSF Assignment ;
 ; Location ;                ;              ; I2C_SDAT         ; PIN_A8        ; QSF Assignment ;
 ; Location ;                ;              ; IRDA_RXD         ; PIN_Y15       ; QSF Assignment ;
-; Location ;                ;              ; KEY[1]           ; PIN_M21       ; QSF Assignment ;
 ; Location ;                ;              ; KEY[2]           ; PIN_N21       ; QSF Assignment ;
 ; Location ;                ;              ; KEY[3]           ; PIN_R24       ; QSF Assignment ;
 ; Location ;                ;              ; LCD_BLON         ; PIN_L6        ; QSF Assignment ;
@@ -519,6 +516,7 @@ https://fpgasoftware.intel.com/eula.
 ; Location ;                ;              ; LCD_ON           ; PIN_L5        ; QSF Assignment ;
 ; Location ;                ;              ; LCD_RS           ; PIN_M2        ; QSF Assignment ;
 ; Location ;                ;              ; LCD_RW           ; PIN_M1        ; QSF Assignment ;
+; Location ;                ;              ; LEDG[1]          ; PIN_E22       ; QSF Assignment ;
 ; Location ;                ;              ; LEDG[2]          ; PIN_E25       ; QSF Assignment ;
 ; Location ;                ;              ; LEDG[3]          ; PIN_E24       ; QSF Assignment ;
 ; Location ;                ;              ; LEDG[4]          ; PIN_H21       ; QSF Assignment ;
@@ -534,7 +532,6 @@ https://fpgasoftware.intel.com/eula.
 ; Location ;                ;              ; LEDR[14]         ; PIN_F15       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[15]         ; PIN_G15       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[16]         ; PIN_G16       ; QSF Assignment ;
-; Location ;                ;              ; LEDR[17]         ; PIN_H15       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[1]          ; PIN_F19       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[2]          ; PIN_E19       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[3]          ; PIN_F21       ; QSF Assignment ;
@@ -692,8 +689,8 @@ https://fpgasoftware.intel.com/eula.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 214 ) ; 0.00 % ( 0 / 214 )         ; 0.00 % ( 0 / 214 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 214 ) ; 0.00 % ( 0 / 214 )         ; 0.00 % ( 0 / 214 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 494 ) ; 0.00 % ( 0 / 494 )         ; 0.00 % ( 0 / 494 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 494 ) ; 0.00 % ( 0 / 494 )         ; 0.00 % ( 0 / 494 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -716,7 +713,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 204 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 484 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -732,28 +729,28 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 +---------------------------------------------+-------------------------+
 ; Resource                                    ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Total logic elements                        ; 122 / 114,480 ( < 1 % ) ;
-;     -- Combinational with no register       ; 51                      ;
-;     -- Register only                        ; 3                       ;
-;     -- Combinational with a register        ; 68                      ;
+; Total logic elements                        ; 321 / 114,480 ( < 1 % ) ;
+;     -- Combinational with no register       ; 172                     ;
+;     -- Register only                        ; 1                       ;
+;     -- Combinational with a register        ; 148                     ;
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 32                      ;
-;     -- 3 input functions                    ; 19                      ;
-;     -- <=2 input functions                  ; 68                      ;
-;     -- Register only                        ; 3                       ;
+;     -- 4 input functions                    ; 99                      ;
+;     -- 3 input functions                    ; 43                      ;
+;     -- <=2 input functions                  ; 178                     ;
+;     -- Register only                        ; 1                       ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
-;     -- normal mode                          ; 58                      ;
-;     -- arithmetic mode                      ; 61                      ;
+;     -- normal mode                          ; 193                     ;
+;     -- arithmetic mode                      ; 127                     ;
 ;                                             ;                         ;
-; Total registers*                            ; 71 / 117,053 ( < 1 % )  ;
-;     -- Dedicated logic registers            ; 71 / 114,480 ( < 1 % )  ;
+; Total registers*                            ; 149 / 117,053 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 149 / 114,480 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 2,573 ( 0 % )       ;
 ;                                             ;                         ;
-; Total LABs:  partially or completely used   ; 10 / 7,155 ( < 1 % )    ;
+; Total LABs:  partially or completely used   ; 29 / 7,155 ( < 1 % )    ;
 ; Virtual pins                                ; 0                       ;
-; I/O pins                                    ; 6 / 529 ( 1 % )         ;
+; I/O pins                                    ; 7 / 529 ( 1 % )         ;
 ;     -- Clock pins                           ; 1 / 7 ( 14 % )          ;
 ;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )           ;
 ;                                             ;                         ;
@@ -762,19 +759,19 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ; Total block memory implementation bits      ; 0 / 3,981,312 ( 0 % )   ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 532 ( 0 % )         ;
 ; PLLs                                        ; 0 / 4 ( 0 % )           ;
-; Global signals                              ; 2                       ;
-;     -- Global clocks                        ; 2 / 20 ( 10 % )         ;
+; Global signals                              ; 1                       ;
+;     -- Global clocks                        ; 1 / 20 ( 5 % )          ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )           ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )           ;
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )           ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )           ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
-; Average interconnect usage (total/H/V)      ; 0.0% / 0.0% / 0.0%      ;
-; Peak interconnect usage (total/H/V)         ; 0.4% / 0.3% / 0.7%      ;
-; Maximum fan-out                             ; 65                      ;
+; Average interconnect usage (total/H/V)      ; 0.1% / 0.0% / 0.1%      ;
+; Peak interconnect usage (total/H/V)         ; 0.6% / 0.6% / 0.8%      ;
+; Maximum fan-out                             ; 149                     ;
 ; Highest non-global fan-out                  ; 40                      ;
-; Total fan-out                               ; 581                     ;
-; Average fan-out                             ; 2.68                    ;
+; Total fan-out                               ; 1345                    ;
+; Average fan-out                             ; 2.72                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -787,33 +784,33 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 +---------------------------------------------+------------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                    ; Low                            ;
 ;                                             ;                        ;                                ;
-; Total logic elements                        ; 122 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
-;     -- Combinational with no register       ; 51                     ; 0                              ;
-;     -- Register only                        ; 3                      ; 0                              ;
-;     -- Combinational with a register        ; 68                     ; 0                              ;
+; Total logic elements                        ; 321 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
+;     -- Combinational with no register       ; 172                    ; 0                              ;
+;     -- Register only                        ; 1                      ; 0                              ;
+;     -- Combinational with a register        ; 148                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
-;     -- 4 input functions                    ; 32                     ; 0                              ;
-;     -- 3 input functions                    ; 19                     ; 0                              ;
-;     -- <=2 input functions                  ; 68                     ; 0                              ;
-;     -- Register only                        ; 3                      ; 0                              ;
+;     -- 4 input functions                    ; 99                     ; 0                              ;
+;     -- 3 input functions                    ; 43                     ; 0                              ;
+;     -- <=2 input functions                  ; 178                    ; 0                              ;
+;     -- Register only                        ; 1                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
-;     -- normal mode                          ; 58                     ; 0                              ;
-;     -- arithmetic mode                      ; 61                     ; 0                              ;
+;     -- normal mode                          ; 193                    ; 0                              ;
+;     -- arithmetic mode                      ; 127                    ; 0                              ;
 ;                                             ;                        ;                                ;
-; Total registers                             ; 71                     ; 0                              ;
-;     -- Dedicated logic registers            ; 71 / 114480 ( < 1 % )  ; 0 / 114480 ( 0 % )             ;
+; Total registers                             ; 149                    ; 0                              ;
+;     -- Dedicated logic registers            ; 149 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
 ;     -- I/O registers                        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
-; Total LABs:  partially or completely used   ; 10 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 29 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
 ;                                             ;                        ;                                ;
 ; Virtual pins                                ; 0                      ; 0                              ;
-; I/O pins                                    ; 6                      ; 0                              ;
+; I/O pins                                    ; 7                      ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 532 ( 0 % )        ; 0 / 532 ( 0 % )                ;
 ; Total memory bits                           ; 0                      ; 0                              ;
 ; Total RAM block bits                        ; 0                      ; 0                              ;
-; Clock control block                         ; 2 / 24 ( 8 % )         ; 0 / 24 ( 0 % )                 ;
+; Clock control block                         ; 1 / 24 ( 4 % )         ; 0 / 24 ( 0 % )                 ;
 ;                                             ;                        ;                                ;
 ; Connections                                 ;                        ;                                ;
 ;     -- Input Connections                    ; 0                      ; 0                              ;
@@ -822,15 +819,15 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 576                    ; 5                              ;
-;     -- Registered Connections               ; 167                    ; 0                              ;
+;     -- Total Connections                    ; 1340                   ; 5                              ;
+;     -- Registered Connections               ; 508                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
 ;     -- Top                                  ; 0                      ; 0                              ;
 ;     -- hard_block:auto_generated_inst       ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Partition Interface                         ;                        ;                                ;
-;     -- Input Ports                          ; 4                      ; 0                              ;
+;     -- Input Ports                          ; 5                      ; 0                              ;
 ;     -- Output Ports                         ; 2                      ; 0                              ;
 ;     -- Bidir Ports                          ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
@@ -855,21 +852,22 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; CLOCK_50 ; Y2    ; 2        ; 0            ; 36           ; 14           ; 65                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; KEY[0]   ; M23   ; 6        ; 115          ; 40           ; 7            ; 40                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; SW[0]    ; AB28  ; 5        ; 115          ; 17           ; 0            ; 10                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; SW[1]    ; AC28  ; 5        ; 115          ; 14           ; 0            ; 6                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; CLOCK_50 ; Y2    ; 2        ; 0            ; 36           ; 14           ; 149                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; KEY[0]   ; M23   ; 6        ; 115          ; 40           ; 7            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; KEY[1]   ; M21   ; 6        ; 115          ; 53           ; 14           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; SW[0]    ; AB28  ; 5        ; 115          ; 17           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; SW[1]    ; AC28  ; 5        ; 115          ; 14           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
-+---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
-+---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; LEDG[0] ; E21   ; 7        ; 107          ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; LEDG[1] ; E22   ; 7        ; 111          ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-+---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                               ;
++----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
+; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
++----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
+; LEDG[0]  ; E21   ; 7        ; 107          ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; LEDR[17] ; H15   ; 7        ; 60           ; 73           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
++----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
@@ -903,7 +901,7 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ; 3        ; 0 / 73 ( 0 % ) ; 2.5V          ; --           ;
 ; 4        ; 0 / 71 ( 0 % ) ; 2.5V          ; --           ;
 ; 5        ; 2 / 65 ( 3 % ) ; 2.5V          ; --           ;
-; 6        ; 2 / 58 ( 3 % ) ; 2.5V          ; --           ;
+; 6        ; 3 / 58 ( 5 % ) ; 2.5V          ; --           ;
 ; 7        ; 2 / 72 ( 3 % ) ; 2.5V          ; --           ;
 ; 8        ; 0 / 71 ( 0 % ) ; 2.5V          ; --           ;
 +----------+----------------+---------------+--------------+
@@ -1267,7 +1265,7 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ; E19      ; 421        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E20      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E21      ; 407        ; 7        ; LEDG[0]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; E22      ; 403        ; 7        ; LEDG[1]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E22      ; 403        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E23      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E24      ; 433        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E25      ; 434        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -1344,7 +1342,7 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ; H12      ; 507        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H13      ; 494        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H14      ; 480        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; H15      ; 464        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; H15      ; 464        ; 7        ; LEDR[17]                                                  ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; H16      ; 459        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H17      ; 454        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H18      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -1462,7 +1460,7 @@ The pin-out file can be found in /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/par
 ; M18      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M19      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M20      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; M21      ; 368        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; M21      ; 368        ; 6        ; KEY[1]                                                    ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; M22      ; 342        ; 6        ; ^MSEL2                                                    ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; M23      ; 344        ; 6        ; KEY[0]                                                    ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; M24      ; 347        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1703,8 +1701,9 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 ; Pin Name ; Reason                        ;
 +----------+-------------------------------+
+; KEY[1]   ; Incomplete set of assignments ;
 ; LEDG[0]  ; Incomplete set of assignments ;
-; LEDG[1]  ; Incomplete set of assignments ;
+; LEDR[17] ; Incomplete set of assignments ;
 ; CLOCK_50 ; Incomplete set of assignments ;
 ; KEY[0]   ; Incomplete set of assignments ;
 ; SW[1]    ; Incomplete set of assignments ;
@@ -1712,16 +1711,19 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                ;
-+------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------+-----------------------+--------------+
-; Compilation Hierarchy Node   ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                            ; Entity Name           ; Library Name ;
-+------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------+-----------------------+--------------+
-; |FPGAMAP_DrinksMachine       ; 122 (1)     ; 71 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 6    ; 0            ; 51 (1)       ; 3 (0)             ; 68 (0)           ; |FPGAMAP_DrinksMachine                         ; FPGAMAP_DrinksMachine ; work         ;
-;    |DrinksFSM:drink_machine| ; 11 (11)     ; 6 (6)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 6 (6)            ; |FPGAMAP_DrinksMachine|DrinksFSM:drink_machine ; DrinksFSM             ; work         ;
-;    |FreqDivider:freq_1hz|    ; 58 (58)     ; 32 (32)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 26 (26)      ; 1 (1)             ; 31 (31)          ; |FPGAMAP_DrinksMachine|FreqDivider:freq_1hz    ; FreqDivider           ; work         ;
-;    |TimerN:timer1|           ; 52 (52)     ; 33 (33)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 19 (19)      ; 2 (2)             ; 31 (31)          ; |FPGAMAP_DrinksMachine|TimerN:timer1           ; TimerN                ; work         ;
-+------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------+-----------------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                        ;
++----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node       ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                ; Entity Name           ; Library Name ;
++----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------+-----------------------+--------------+
+; |FPGAMAP_DrinksMachine           ; 321 (1)     ; 149 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 7    ; 0            ; 172 (1)      ; 1 (0)             ; 148 (0)          ; |FPGAMAP_DrinksMachine                             ; FPGAMAP_DrinksMachine ; work         ;
+;    |DebounceUnit:debouncer_key0| ; 68 (68)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 42 (42)      ; 0 (0)             ; 26 (26)          ; |FPGAMAP_DrinksMachine|DebounceUnit:debouncer_key0 ; DebounceUnit          ; work         ;
+;    |DebounceUnit:debouncer_sw0|  ; 67 (67)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 41 (41)      ; 0 (0)             ; 26 (26)          ; |FPGAMAP_DrinksMachine|DebounceUnit:debouncer_sw0  ; DebounceUnit          ; work         ;
+;    |DebounceUnit:debouncer_sw1|  ; 68 (68)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 42 (42)      ; 1 (1)             ; 25 (25)          ; |FPGAMAP_DrinksMachine|DebounceUnit:debouncer_sw1  ; DebounceUnit          ; work         ;
+;    |DrinksFSM:drink_machine|     ; 11 (11)     ; 6 (6)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 6 (6)            ; |FPGAMAP_DrinksMachine|DrinksFSM:drink_machine     ; DrinksFSM             ; work         ;
+;    |FreqDivider:freq_1hz|        ; 57 (57)     ; 32 (32)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 25 (25)      ; 0 (0)             ; 32 (32)          ; |FPGAMAP_DrinksMachine|FreqDivider:freq_1hz        ; FreqDivider           ; work         ;
+;    |TimerN:timer1|               ; 49 (49)     ; 33 (33)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 16 (16)      ; 0 (0)             ; 33 (33)          ; |FPGAMAP_DrinksMachine|TimerN:timer1               ; TimerN                ; work         ;
++----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------+-----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1730,8 +1732,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------+----------+---------------+---------------+-----------------------+-----+------+
 ; Name     ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
 +----------+----------+---------------+---------------+-----------------------+-----+------+
+; KEY[1]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; LEDG[0]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[1]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; LEDR[17] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; CLOCK_50 ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 ; KEY[0]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; SW[1]    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
@@ -1739,95 +1742,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                     ;
-+------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                  ; Pad To Core Index ; Setting ;
-+------------------------------------------------------+-------------------+---------+
-; CLOCK_50                                             ;                   ;         ;
-; KEY[0]                                               ;                   ;         ;
-;      - TimerN:timer1|timerOut                        ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState.SMAX   ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState.S80_70 ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState.S60_50 ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState.S40    ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState.S20    ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[0]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[1]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[2]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[3]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[4]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[5]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[6]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[7]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[8]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[9]                      ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[10]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[11]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[12]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[13]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[14]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[15]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[16]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[17]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[18]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[19]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[20]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[21]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[22]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[23]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[24]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[25]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[26]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[27]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[28]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[29]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[30]                     ; 1                 ; 6       ;
-;      - TimerN:timer1|s_count[31]                     ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~9      ; 1                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~10     ; 1                 ; 6       ;
-; SW[1]                                                ;                   ;         ;
-;      - DrinksFSM:drink_machine|Selector5~2           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_nextState~0         ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector3~0           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~9      ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector4~0           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector5~3           ; 0                 ; 6       ;
-; SW[0]                                                ;                   ;         ;
-;      - DrinksFSM:drink_machine|Selector5~2           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_nextState~0         ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector3~0           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector3~1           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~8      ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~9      ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector4~0           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector4~1           ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|s_currentState~11     ; 0                 ; 6       ;
-;      - DrinksFSM:drink_machine|Selector5~3           ; 0                 ; 6       ;
-+------------------------------------------------------+-------------------+---------+
++----------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                   ;
++----------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                                ; Pad To Core Index ; Setting ;
++----------------------------------------------------+-------------------+---------+
+; KEY[1]                                             ;                   ;         ;
+; CLOCK_50                                           ;                   ;         ;
+; KEY[0]                                             ;                   ;         ;
+;      - DebounceUnit:debouncer_key0|s_dirtyIn~0     ; 1                 ; 6       ;
+; SW[1]                                              ;                   ;         ;
+;      - DebounceUnit:debouncer_sw1|s_dirtyIn~feeder ; 0                 ; 6       ;
+; SW[0]                                              ;                   ;         ;
+;      - DebounceUnit:debouncer_sw0|s_dirtyIn        ; 0                 ; 6       ;
++----------------------------------------------------+-------------------+---------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                                                                     ;
-+------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
-; Name                                     ; Location            ; Fan-Out ; Usage                     ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
-; CLOCK_50                                 ; PIN_Y2              ; 65      ; Clock                     ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; DrinksFSM:drink_machine|s_currentState~9 ; LCCOMB_X108_Y24_N28 ; 2       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; FreqDivider:freq_1hz|clkOut              ; FF_X111_Y39_N25     ; 6       ; Clock                     ; yes    ; Global Clock         ; GCLK5            ; --                        ;
-; KEY[0]                                   ; PIN_M23             ; 40      ; Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
-; TimerN:timer1|s_count~48                 ; LCCOMB_X109_Y24_N28 ; 32      ; Sync. load                ; no     ; --                   ; --               ; --                        ;
-+------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                                                                           ;
++------------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
+; Name                                           ; Location            ; Fan-Out ; Usage                     ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
+; CLOCK_50                                       ; PIN_Y2              ; 149     ; Clock                     ; yes    ; Global Clock         ; GCLK4            ; --                        ;
+; DebounceUnit:debouncer_key0|s_debounceCnt[7]~3 ; LCCOMB_X100_Y49_N20 ; 22      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; DebounceUnit:debouncer_key0|s_pulsedOut        ; FF_X102_Y49_N17     ; 40      ; Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
+; DebounceUnit:debouncer_sw0|s_debounceCnt[11]~3 ; LCCOMB_X107_Y27_N6  ; 22      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; DebounceUnit:debouncer_sw1|s_debounceCnt[14]~3 ; LCCOMB_X90_Y19_N14  ; 22      ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; DrinksFSM:drink_machine|s_currentState~9       ; LCCOMB_X103_Y45_N2  ; 2       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; TimerN:timer1|s_count~90                       ; LCCOMB_X107_Y46_N28 ; 32      ; Sync. load                ; no     ; --                   ; --               ; --                        ;
++------------------------------------------------+---------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                                          ;
-+-----------------------------+-----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name                        ; Location        ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+-----------------------------+-----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; CLOCK_50                    ; PIN_Y2          ; 65      ; 21                                   ; Global Clock         ; GCLK4            ; --                        ;
-; FreqDivider:freq_1hz|clkOut ; FF_X111_Y39_N25 ; 6       ; 0                                    ; Global Clock         ; GCLK5            ; --                        ;
-+-----------------------------+-----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                ;
++----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name     ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; CLOCK_50 ; PIN_Y2   ; 149     ; 20                                   ; Global Clock         ; GCLK4            ; --                        ;
++----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
 +-------------------------------------------------+
@@ -1835,113 +1787,113 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 122 / 342,891 ( < 1 % ) ;
-; C16 interconnects     ; 4 / 10,120 ( < 1 % )    ;
-; C4 interconnects      ; 58 / 209,544 ( < 1 % )  ;
-; Direct links          ; 54 / 342,891 ( < 1 % )  ;
-; Global clocks         ; 2 / 20 ( 10 % )         ;
-; Local interconnects   ; 97 / 119,088 ( < 1 % )  ;
+; Block interconnects   ; 342 / 342,891 ( < 1 % ) ;
+; C16 interconnects     ; 7 / 10,120 ( < 1 % )    ;
+; C4 interconnects      ; 113 / 209,544 ( < 1 % ) ;
+; Direct links          ; 123 / 342,891 ( < 1 % ) ;
+; Global clocks         ; 1 / 20 ( 5 % )          ;
+; Local interconnects   ; 232 / 119,088 ( < 1 % ) ;
 ; R24 interconnects     ; 3 / 9,963 ( < 1 % )     ;
-; R4 interconnects      ; 38 / 289,782 ( < 1 % )  ;
+; R4 interconnects      ; 134 / 289,782 ( < 1 % ) ;
 +-----------------------+-------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.20) ; Number of LABs  (Total = 10) ;
+; Number of Logic Elements  (Average = 11.07) ; Number of LABs  (Total = 29) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 0                            ;
-; 2                                           ; 1                            ;
-; 3                                           ; 0                            ;
+; 1                                           ; 5                            ;
+; 2                                           ; 2                            ;
+; 3                                           ; 2                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
-; 6                                           ; 1                            ;
+; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 0                            ;
-; 10                                          ; 1                            ;
-; 11                                          ; 0                            ;
+; 10                                          ; 0                            ;
+; 11                                          ; 1                            ;
 ; 12                                          ; 2                            ;
 ; 13                                          ; 0                            ;
 ; 14                                          ; 0                            ;
-; 15                                          ; 0                            ;
-; 16                                          ; 5                            ;
+; 15                                          ; 1                            ;
+; 16                                          ; 16                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.60) ; Number of LABs  (Total = 10) ;
+; LAB-wide Signals  (Average = 1.34) ; Number of LABs  (Total = 29) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 8                            ;
-; 1 Sync. clear                      ; 4                            ;
-; 1 Sync. load                       ; 3                            ;
-; 2 Clocks                           ; 1                            ;
+; 1 Clock                            ; 25                           ;
+; 1 Clock enable                     ; 9                            ;
+; 1 Sync. clear                      ; 3                            ;
+; 1 Sync. load                       ; 2                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 19.30) ; Number of LABs  (Total = 10) ;
+; Number of Signals Sourced  (Average = 16.21) ; Number of LABs  (Total = 29) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 0                            ;
-; 2                                            ; 1                            ;
-; 3                                            ; 0                            ;
+; 1                                            ; 3                            ;
+; 2                                            ; 3                            ;
+; 3                                            ; 1                            ;
 ; 4                                            ; 0                            ;
-; 5                                            ; 0                            ;
+; 5                                            ; 2                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
-; 9                                            ; 1                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
-; 12                                           ; 1                            ;
+; 12                                           ; 0                            ;
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
-; 16                                           ; 0                            ;
-; 17                                           ; 1                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 2                            ;
 ; 18                                           ; 0                            ;
-; 19                                           ; 1                            ;
-; 20                                           ; 1                            ;
-; 21                                           ; 0                            ;
+; 19                                           ; 2                            ;
+; 20                                           ; 5                            ;
+; 21                                           ; 1                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 0                            ;
+; 23                                           ; 2                            ;
 ; 24                                           ; 1                            ;
-; 25                                           ; 0                            ;
-; 26                                           ; 0                            ;
+; 25                                           ; 1                            ;
+; 26                                           ; 2                            ;
 ; 27                                           ; 0                            ;
 ; 28                                           ; 1                            ;
 ; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
+; 30                                           ; 0                            ;
 ; 31                                           ; 0                            ;
-; 32                                           ; 1                            ;
+; 32                                           ; 2                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 9.00) ; Number of LABs  (Total = 10) ;
+; Number of Signals Sourced Out  (Average = 7.59) ; Number of LABs  (Total = 29) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 0                            ;
-; 2                                               ; 1                            ;
-; 3                                               ; 1                            ;
-; 4                                               ; 2                            ;
+; 1                                               ; 6                            ;
+; 2                                               ; 3                            ;
+; 3                                               ; 2                            ;
+; 4                                               ; 0                            ;
 ; 5                                               ; 0                            ;
 ; 6                                               ; 1                            ;
-; 7                                               ; 0                            ;
-; 8                                               ; 1                            ;
-; 9                                               ; 0                            ;
-; 10                                              ; 0                            ;
+; 7                                               ; 1                            ;
+; 8                                               ; 4                            ;
+; 9                                               ; 1                            ;
+; 10                                              ; 1                            ;
 ; 11                                              ; 0                            ;
-; 12                                              ; 0                            ;
-; 13                                              ; 0                            ;
+; 12                                              ; 3                            ;
+; 13                                              ; 3                            ;
 ; 14                                              ; 0                            ;
 ; 15                                              ; 1                            ;
 ; 16                                              ; 3                            ;
@@ -1951,32 +1903,42 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 11.40) ; Number of LABs  (Total = 10) ;
+; Number of Distinct Inputs  (Average = 11.86) ; Number of LABs  (Total = 29) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
-; 2                                            ; 0                            ;
+; 2                                            ; 2                            ;
 ; 3                                            ; 0                            ;
-; 4                                            ; 1                            ;
-; 5                                            ; 0                            ;
-; 6                                            ; 2                            ;
-; 7                                            ; 1                            ;
+; 4                                            ; 4                            ;
+; 5                                            ; 4                            ;
+; 6                                            ; 0                            ;
+; 7                                            ; 0                            ;
 ; 8                                            ; 1                            ;
-; 9                                            ; 0                            ;
-; 10                                           ; 1                            ;
+; 9                                            ; 1                            ;
+; 10                                           ; 3                            ;
 ; 11                                           ; 1                            ;
-; 12                                           ; 0                            ;
+; 12                                           ; 2                            ;
 ; 13                                           ; 0                            ;
-; 14                                           ; 0                            ;
+; 14                                           ; 2                            ;
 ; 15                                           ; 0                            ;
 ; 16                                           ; 0                            ;
 ; 17                                           ; 0                            ;
 ; 18                                           ; 1                            ;
 ; 19                                           ; 0                            ;
 ; 20                                           ; 0                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 0                            ;
-; 23                                           ; 1                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 2                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 2                            ;
+; 25                                           ; 1                            ;
+; 26                                           ; 1                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 0                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 0                            ;
+; 32                                           ; 0                            ;
+; 33                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -2037,12 +1999,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+--------------+-----------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+-----------+-----------+--------------+--------------+
 ; Pin/Rules          ; IO_000002    ; IO_000001 ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000047    ; IO_000046    ; IO_000045    ; IO_000027    ; IO_000026    ; IO_000024    ; IO_000023    ; IO_000022    ; IO_000021    ; IO_000020    ; IO_000019    ; IO_000018    ; IO_000015    ; IO_000014    ; IO_000013    ; IO_000012    ; IO_000011    ; IO_000010 ; IO_000009 ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+--------------+-----------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+-----------+-----------+--------------+--------------+
-; Total Pass         ; 0            ; 6         ; 6         ; 0            ; 0            ; 6         ; 6         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 4            ; 2            ; 0            ; 4            ; 0            ; 0            ; 2            ; 0            ; 6         ; 6         ; 6         ; 0            ; 0            ;
+; Total Pass         ; 0            ; 7         ; 7         ; 0            ; 0            ; 7         ; 7         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 5            ; 2            ; 0            ; 5            ; 0            ; 0            ; 2            ; 0            ; 7         ; 7         ; 7         ; 0            ; 0            ;
 ; Total Unchecked    ; 0            ; 0         ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0         ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 6            ; 0         ; 0         ; 6            ; 6            ; 0         ; 0         ; 6            ; 6            ; 6            ; 6            ; 6            ; 6            ; 4            ; 6            ; 6            ; 6            ; 2            ; 4            ; 6            ; 2            ; 6            ; 6            ; 4            ; 6            ; 0         ; 0         ; 0         ; 6            ; 6            ;
+; Total Inapplicable ; 7            ; 0         ; 0         ; 7            ; 7            ; 0         ; 0         ; 7            ; 7            ; 7            ; 7            ; 7            ; 7            ; 5            ; 7            ; 7            ; 7            ; 2            ; 5            ; 7            ; 2            ; 7            ; 7            ; 5            ; 7            ; 0         ; 0         ; 0         ; 7            ; 7            ;
 ; Total Fail         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0         ; 0         ; 0            ; 0            ;
+; KEY[1]             ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
 ; LEDG[0]            ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
-; LEDG[1]            ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
+; LEDR[17]           ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
 ; CLOCK_50           ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
 ; KEY[0]             ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
 ; SW[1]              ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Pass      ; Inapplicable ; Inapplicable ;
@@ -2086,59 +2049,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------+--------+
 
 
-+------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary              ;
-+-----------------+----------------------+-------------------+
-; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
-+-----------------+----------------------+-------------------+
-; CLOCK_50        ; CLOCK_50             ; 3.8               ;
-+-----------------+----------------------+-------------------+
-Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
-This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
-
-
-+-----------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                 ;
-+---------------------------------------------+-----------------------------+-------------------+
-; Source Register                             ; Destination Register        ; Delay Added in ns ;
-+---------------------------------------------+-----------------------------+-------------------+
-; FreqDivider:freq_1hz|clkOut                 ; FreqDivider:freq_1hz|clkOut ; 3.826             ;
-; FreqDivider:freq_1hz|s_counter[30]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[29]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[28]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[27]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[25]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[24]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[23]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[22]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[21]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[20]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[26]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[18]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[17]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[16]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[15]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[19]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[14]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[13]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[12]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[10]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[9]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[8]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[7]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[6]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[5]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[4]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[3]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[2]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[1]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[0]           ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; FreqDivider:freq_1hz|s_counter[11]          ; FreqDivider:freq_1hz|clkOut ; 1.366             ;
-; DrinksFSM:drink_machine|s_currentState.SMAX ; TimerN:timer1|timerOut      ; 0.067             ;
-+---------------------------------------------+-----------------------------+-------------------+
-Note: This table only shows the top 33 path(s) that have the largest delay added for hold.
-
-
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
@@ -2169,15 +2079,10 @@ Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Ass
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'DrinksMachine.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/part2/FPGAMAP_DrinksMachine.vhd Line: 6
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
-Info (176353): Automatically promoted node FreqDivider:freq_1hz|clkOut  File: /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/part2/FreqDivider.vhd Line: 9
-    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node FreqDivider:freq_1hz|clkOut~3 File: /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/part2/FreqDivider.vhd Line: 9
-        Info (176357): Destination node LEDG[1]~output File: /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/part2/FPGAMAP_DrinksMachine.vhd Line: 9
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -2515,7 +2420,6 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "I2C_SCLK" is assigned to location or region, but does not exist in design
     Warning (15706): Node "I2C_SDAT" is assigned to location or region, but does not exist in design
     Warning (15706): Node "IRDA_RXD" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "KEY[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "KEY[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "KEY[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LCD_BLON" is assigned to location or region, but does not exist in design
@@ -2531,6 +2435,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "LCD_ON" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LCD_RS" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LCD_RW" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDG[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDG[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDG[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDG[4]" is assigned to location or region, but does not exist in design
@@ -2546,7 +2451,6 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "LEDR[14]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[15]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[16]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "LEDR[17]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[3]" is assigned to location or region, but does not exist in design
@@ -2695,32 +2599,32 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_SYNC_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:06
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X104_Y37 to location X115_Y48
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X104_Y24 to location X115_Y36
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file /home/rhyan/Documents/ua/1.2/LSD/trabPrat08/part2/output_files/DrinksMachine.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 519 warnings
-    Info: Peak virtual memory: 882 megabytes
-    Info: Processing ended: Mon May 13 14:00:35 2024
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:21
+Info: Quartus Prime Fitter was successful. 0 errors, 518 warnings
+    Info: Peak virtual memory: 887 megabytes
+    Info: Processing ended: Tue May 14 09:43:56 2024
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +----------------------------+

@@ -1,0 +1,7 @@
+
+State Machine - |SeqDetector|SeqDetFSM:system_core|PS
+Name PS.S100 PS.S10 PS.S1 PS.INI 
+PS.INI 0 0 0 0 
+PS.S1 0 0 1 1 
+PS.S10 0 1 0 1 
+PS.S100 1 0 0 1 
