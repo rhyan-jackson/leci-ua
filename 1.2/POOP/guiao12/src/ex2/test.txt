@@ -1,0 +1,7 @@
+Escreva um programa que leia um ficheiro de texto à sua escolha e guarde uma estrutura de
+dados onde agrupe cada palavra distinta pela respetiva inicial, guardando também o número
+de vezes que cada palavra ocorre no ficheiro. Transforme todas as palavras em minúsculas e
+considere apenas palavras com três carateres ou mais.
+No final, escreva a estrutura para um ficheiro, ordenando as palavras alfabeticamente. Por
+exemplo, para o texto ‘A cidade e as serras’ de Eça de Queirós, o resultado deverá ser
+semelhante a:

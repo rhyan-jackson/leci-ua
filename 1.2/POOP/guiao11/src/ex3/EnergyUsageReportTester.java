@@ -1,8 +1,9 @@
 import java.util.Arrays;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 package ex3;
 
-public class EnergyUsageReportTester {
+public class EnergyUsageReportTester throws EnergyReportFileNotExistsException{
 
     public static void main(String[] args) throws IOException {
         
@@ -10,7 +11,13 @@ public class EnergyUsageReportTester {
         EnergyUsageReport energyReport = new EnergyUsageReport();
         
         // Load the customer data from a text file using the load() method
-        energyReport.load("clients.txt");
+        String fileName = "clients.txt";
+        try {
+            energyReport.load(fileName);
+        } catch (FileNotFoundException e) {
+            throw new EnergyReportFileNotExistsException("Energy report file with name " + fileName);
+        }
+        
         
         // Add one or more customers to the collection using the addCustomer() method
         Customer newCustomer = new Customer(999, Arrays.asList(1500.0, 2000.0, 2500.0, 3000.0));

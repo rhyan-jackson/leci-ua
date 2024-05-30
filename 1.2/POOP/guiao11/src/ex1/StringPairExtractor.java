@@ -48,6 +48,4 @@ public class StringPairExtractor {
     public static void main(String[] args) throws Exception {
         System.out.println(StringPairExtractor.extract("src/teste.txt"));
     }
-
-    // rhyan de de joao
 }
