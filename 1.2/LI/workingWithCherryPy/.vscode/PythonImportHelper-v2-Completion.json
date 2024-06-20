@@ -1,0 +1,83 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "cherrypy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cherrypy",
+        "description": "cherrypy",
+        "detail": "cherrypy",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "StringGenerator",
+        "kind": 6,
+        "importPath": "generate_strings",
+        "description": "generate_strings",
+        "peekOfCode": "class StringGenerator(object):\n    @cherrypy.expose\n    def index(self):\n        return \"Hello world!\"\n    @cherrypy.expose\n    def generate(self, length=8):\n        length = int(length)\n        return \"\".join(random.sample(string.hexdigits, length))\nif __name__ == \"__main__\":\n    cherrypy.quickstart(StringGenerator())",
+        "detail": "generate_strings",
+        "documentation": {}
+    },
+    {
+        "label": "StringGenerator",
+        "kind": 6,
+        "importPath": "html_example",
+        "description": "html_example",
+        "peekOfCode": "class StringGenerator(object):\n    @cherrypy.expose\n    def index(self):\n        return \"\"\"<html>\n          <head></head>\n          <body>\n            <form method=\"get\" action=\"generate\">\n              <input type=\"text\" value=\"8\" name=\"length\" />\n              <button type=\"submit\">Give it now!</button>\n            </form>",
+        "detail": "html_example",
+        "documentation": {}
+    },
+    {
+        "label": "StringGenerator",
+        "kind": 6,
+        "importPath": "tracking_user",
+        "description": "tracking_user",
+        "peekOfCode": "class StringGenerator(object):\n    @cherrypy.expose\n    def index(self):\n        return \"\"\"<html>\n          <head></head>\n          <body>\n            <form method=\"get\" action=\"generate\">\n              <input type=\"text\" value=\"8\" name=\"length\" />\n              <button type=\"submit\">Give it now!</button>\n            </form>",
+        "detail": "tracking_user",
+        "documentation": {}
+    },
+    {
+        "label": "StringGenerator",
+        "kind": 6,
+        "importPath": "working_with_css",
+        "description": "working_with_css",
+        "peekOfCode": "class StringGenerator(object):\n    @cherrypy.expose\n    def index(self):\n        return \"\"\"<html>\n          <head>\n            <link href=\"/static/css/style.css\" rel=\"stylesheet\">\n          </head>\n          <body>\n            <form method=\"get\" action=\"generate\">\n              <input type=\"text\" value=\"8\" name=\"length\" />",
+        "detail": "working_with_css",
+        "documentation": {}
+    }
+]

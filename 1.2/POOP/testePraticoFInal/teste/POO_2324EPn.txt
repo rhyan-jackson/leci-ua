@@ -1,0 +1,35 @@
+
+Alínea 1) ----------------------------------
+
+### There is already an event occurring at this place and time!
+** No more tickets available for event 1003
+** No more tickets available for event 1007
+** No more tickets available for event 1011
+** No more tickets available for event 1003
+** No more tickets available for event 1007
+** No more tickets available for event 1011
+** No more tickets available for event 1003
+Thunderous [90 minutes], concert by Neon Pulse Tour at Riverside Theatre, 2024-06-14 18:30, 10 tickets available.
+Esperanza Spalding [75 minutes], concert by A Tribute to Nina Simone at City Lights Cinema, 2024-06-10 20:15, 60 tickets available.
+The Importance of Being Earnest [150 minutes], theatre play by Oscar Wilde, performed by Grand Theatre Company at Central Park Bandshell, 2024-06-22 19:30, 110 tickets available.
+The Ballad of Black Bart [90 minutes], theatre play by Maria Hernandez, performed by Riverbank Community Players at The Black Box, 2024-06-19 21:00, 0 tickets available.
+The Maltese Falcon [100 minutes], a 1941 movie by John Huston, with Humphrey Bogart, Mary Astor, Peter Lorre at Riverside Theatre, 2024-06-20 18:45, 20 tickets available.
+The Invisible Thread [90 minutes], a 2023 movie by David Choi, with Elena Alvarez, Daniel Park, Thomas Wright at City Lights Cinema, 2024-06-11 22:00, 70 tickets available.
+Thunderous [90 minutes], concert by Neon Pulse Tour at Central Park Bandshell, 2024-06-23 19:30, 120 tickets available.
+Esperanza Spalding [75 minutes], concert by A Tribute to Nina Simone at The Black Box, 2024-06-28 18:30, 0 tickets available.
+The Importance of Being Earnest [150 minutes], theatre play by Oscar Wilde, performed by Grand Theatre Company at Riverside Theatre, 2024-06-12 20:45, 20 tickets available.
+The Ballad of Black Bart [90 minutes], theatre play by Maria Hernandez, performed by Riverbank Community Players at City Lights Cinema, 2024-06-17 19:00, 70 tickets available.
+The Maltese Falcon [100 minutes], a 1941 movie by John Huston, with Humphrey Bogart, Mary Astor, Peter Lorre at Central Park Bandshell, 2024-06-25 21:15, 120 tickets available.
+The Invisible Thread [90 minutes], a 2023 movie by David Choi, with Elena Alvarez, Daniel Park, Thomas Wright at The Black Box, 2024-06-29 18:00, 0 tickets available.
+
+
+Alínea 2) ----------------------------------
+
+
+Finished reading file.
+
+
+** First 10 available events, sorted by date:
+[Indigo Groove [90 minutes], concert by Smooth Sounds & City Lights at The Studio, 2024-06-17 19:00, 111 tickets available., Ghostlight [90 minutes], theatre play by Augustus Moore, performed by Torchlight Repertory at The Black Box, 2024-06-20 18:45, 41 tickets available., Moonlight Sonata [105 minutes], concert by Symphonic Serenade at The Blues Room, 2024-06-22 19:30, 20 tickets available., DJ Pulse [90 minutes], concert by Neon Beats Night at Central Park Bandshell, 2024-06-25 21:15, 101 tickets available., Unbound [75 minutes], theatre play by Sarah Li, performed by New Stage Collective at Central Park Bandshell, 2024-06-28 18:30, 7 tickets available.]
+
+** Number of tickets sold by event type:
