@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int t1(int n) {
+  if (n == 1) {
+    return 1;
+  } else {
+    return t1(n / 2) + t1((n + 1) / 2);
+  }
+  printf("now n is %d\n", n);
+}
+
+
+int main(int argc, char *argv[])
+{
+  int result = t1(10);
+}
