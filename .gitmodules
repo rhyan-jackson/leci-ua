@@ -4,3 +4,9 @@
 [submodule "2.1/AED/trabalho-1-120271-120495"]
 	path = 2.1/AED/trabalho-1-120271-120495
 	url = https://github.com/detiuaveiro/trabalho-1-120271-120495
+[submodule "anki-cards"]
+	path = anki-cards
+	url = https://github.com/rhyan-jackson/anki-cards
+[submodule "2.1/AED/trab1-aed"]
+	path = 2.1/AED/trab1-aed
+	url = https://github.com/detiuaveiro/trabalho-1-120271-120495
